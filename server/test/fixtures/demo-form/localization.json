@@ -1,0 +1,11 @@
+{
+  "language": { "id": 1, "name": "English", "slug": "en" },
+  "country": {
+    "id": 41,
+    "name": "Denmark",
+    "slug": "dk",
+    "currency": { "id": 31, "name": "Danish Krone", "code": "DKK", "symbol": "kr", "number": 208, "digits": 2, "symbol_position": "RIGHT" },
+    "language": { "id": 1, "name": "English", "slug": "en" }
+  },
+  "currency": { "id": 31, "name": "Danish Krone", "code": "DKK", "symbol": "kr", "number": 208, "digits": 2, "symbol_position": "RIGHT" }
+}

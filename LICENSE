@@ -1,0 +1,21 @@
+Mercura config-panel plugin for Claude
+Copyright (c) 2026 Mercura ApS. All rights reserved.
+
+This plugin, including the Mercura form SDK contained in server/vendor.min.mjs, is
+proprietary software of Mercura ApS.
+
+You may install and use the plugin, unmodified, solely to access a Mercura config-panel
+installation that you or your organisation are entitled to use under an agreement with
+Mercura ApS. You may not sell, sublicense or redistribute the plugin, and you may not
+modify, decompile or reverse engineer server/vendor.min.mjs, except to the extent
+applicable law expressly permits it.
+
+Third-party open-source components contained in server/vendor.min.mjs are licensed under
+their own terms, which are reproduced in server/THIRD_PARTY_NOTICES.txt. Nothing in this
+licence limits your rights under those terms.
+
+THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL MERCURA APS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE PLUGIN OR ITS USE,
+EXCEPT AS SET OUT IN YOUR AGREEMENT WITH MERCURA APS.

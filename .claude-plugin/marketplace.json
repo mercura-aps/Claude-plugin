@@ -1,0 +1,23 @@
+{
+  "name": "mercura",
+  "owner": {
+    "name": "Mercura",
+    "url": "https://mercura.io"
+  },
+  "description": "Mercura's plugins for customers of config-panel.",
+  "plugins": [
+    {
+      "name": "mercura-config-panel",
+      "source": "./plugins/mercura-config-panel",
+      "description": "Configure products, see live prices and create quotes in your Mercura config-panel; look up quotes and products; admins can edit configurators with preview, confirmation and undo.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "cpq",
+        "configurator",
+        "quotes",
+        "mercura"
+      ]
+    }
+  ]
+}

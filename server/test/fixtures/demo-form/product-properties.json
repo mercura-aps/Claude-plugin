@@ -1,0 +1,7015 @@
+{
+  "properties": [
+    {
+      "id": 8,
+      "active": true,
+      "name": "Color",
+      "description": null,
+      "slug": "color",
+      "type": "string",
+      "translation": {
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 15,
+      "active": true,
+      "name": "CO2 value",
+      "description": null,
+      "slug": "co2-value",
+      "type": "number",
+      "translation": {
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 128,
+      "active": true,
+      "name": "Type",
+      "description": null,
+      "slug": "type",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 129,
+      "active": true,
+      "name": "Model",
+      "description": null,
+      "slug": "model",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 139,
+      "active": true,
+      "name": "Width",
+      "description": null,
+      "slug": "width",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 140,
+      "active": true,
+      "name": "Depth",
+      "description": null,
+      "slug": "depth",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 141,
+      "active": true,
+      "name": "Height",
+      "description": null,
+      "slug": "height",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 160,
+      "active": true,
+      "name": "Abrechnung",
+      "description": null,
+      "slug": "abrechnung",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 161,
+      "active": true,
+      "name": "Level",
+      "description": null,
+      "slug": "basispaket",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 162,
+      "active": true,
+      "name": "Max User Limit",
+      "description": null,
+      "slug": "max-user-limit",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 163,
+      "active": true,
+      "name": "API-Zugang",
+      "description": null,
+      "slug": "api-zugang",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 164,
+      "active": true,
+      "name": "SLA-Level",
+      "description": null,
+      "slug": "sla-level",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 166,
+      "active": true,
+      "name": "Einheit",
+      "description": null,
+      "slug": "einheit",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 168,
+      "active": true,
+      "name": "Minimale Laufzeit (Monate)",
+      "description": null,
+      "slug": "minimale-laufzeit-monate",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 785,
+      "active": true,
+      "name": "Lift Series",
+      "description": "The lift product series / model family",
+      "slug": "lift-series",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 786,
+      "active": true,
+      "name": "Use Case",
+      "description": "Where the lift is intended to be installed (private / public / mobile)",
+      "slug": "use-case",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 787,
+      "active": true,
+      "name": "Max Lifting Height",
+      "description": "Maximum lifting height bracket the lift can reach",
+      "slug": "max-lifting-height",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 788,
+      "active": true,
+      "name": "Load Capacity",
+      "description": "Load capacity bracket in kg",
+      "slug": "load-capacity",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 789,
+      "active": true,
+      "name": "Exit Type",
+      "description": "Available exit configuration (through-passage, corner, multiple sides)",
+      "slug": "exit-type",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 790,
+      "active": true,
+      "name": "Pit Installation",
+      "description": "Whether the lift can be installed flush with floor (in a pit)",
+      "slug": "pit-installation",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 791,
+      "active": true,
+      "name": "Mobile",
+      "description": "Whether the lift is mobile (rollable on wheels) and needs no construction work",
+      "slug": "mobile",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 916,
+      "active": true,
+      "name": "Kapacitet (m³/h)",
+      "description": "Max airflow capacity (m³/h) for matching against required Ventilationsbehov.",
+      "slug": "airmaster-kapacitet-m3h",
+      "type": "number",
+      "translation": {
+        "da_name": "Kapacitet (m³/h)"
+      }
+    },
+    {
+      "id": 917,
+      "active": true,
+      "name": "Montering",
+      "description": "Mounting orientation: Loft (ceiling), Gulv (floor), or both.",
+      "slug": "airmaster-montering",
+      "type": "string",
+      "translation": {
+        "da_name": "Montering"
+      }
+    },
+    {
+      "id": 918,
+      "active": true,
+      "name": "BR18-compliant",
+      "description": "Meets Danish Bygningsreglement 2018 requirements.",
+      "slug": "airmaster-br18-compliant",
+      "type": "boolean",
+      "translation": {
+        "da_name": "BR18-compliant"
+      }
+    },
+    {
+      "id": 919,
+      "active": true,
+      "name": "Mekanisk køl",
+      "description": "Built-in mechanical cooling.",
+      "slug": "airmaster-mekanisk-koel",
+      "type": "boolean",
+      "translation": {
+        "da_name": "Mekanisk køl"
+      }
+    },
+    {
+      "id": 921,
+      "active": true,
+      "name": "Door Family",
+      "description": "Commercial door product family.",
+      "slug": "cd-door-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 922,
+      "active": true,
+      "name": "Wind Rated",
+      "description": "Door is engineered and tested to a wind design pressure.",
+      "slug": "cd-wind-rated",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 923,
+      "active": true,
+      "name": "HVHZ Approved",
+      "description": "Carries Miami-Dade / Florida HVHZ product approval.",
+      "slug": "cd-hvhz-approved",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 924,
+      "active": true,
+      "name": "Insulated",
+      "description": "Curtain or panel includes thermal insulation.",
+      "slug": "cd-insulated",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 925,
+      "active": true,
+      "name": "Max R-Value",
+      "description": "Maximum thermal R-value the door can achieve.",
+      "slug": "cd-max-r-value",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 926,
+      "active": true,
+      "name": "Max Width (ft)",
+      "description": "Maximum opening width the door supports, in feet.",
+      "slug": "cd-max-width-ft",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 927,
+      "active": true,
+      "name": "Max Height (ft)",
+      "description": "Maximum opening height the door supports, in feet.",
+      "slug": "cd-max-height-ft",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 928,
+      "active": true,
+      "name": "Min Headroom (in)",
+      "description": "Minimum headroom (inches) the door's track or coil requires.",
+      "slug": "cd-min-headroom-in",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 929,
+      "active": true,
+      "name": "Duty Cycle",
+      "description": "Operational duty class: standard, heavy, or high.",
+      "slug": "cd-duty-cycle",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 930,
+      "active": true,
+      "name": "Fire Rated",
+      "description": "UL-listed fire-rated assembly (NFPA 80).",
+      "slug": "cd-fire-rated",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 931,
+      "active": true,
+      "name": "Security Grade",
+      "description": "Forced-entry resistance grade.",
+      "slug": "cd-security-grade",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 932,
+      "active": true,
+      "name": "Cold Storage Ready",
+      "description": "Suitable for cooler / freezer cold-storage openings.",
+      "slug": "cd-cold-storage-ready",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 933,
+      "active": true,
+      "name": "Max Design Pressure (PSF)",
+      "description": "Maximum wind design pressure rating in PSF.",
+      "slug": "cd-max-design-pressure-psf",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 952,
+      "active": true,
+      "name": "INCUBA Lokation",
+      "description": null,
+      "slug": "incuba-lokation",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 953,
+      "active": true,
+      "name": "INCUBA Kapacitet",
+      "description": null,
+      "slug": "incuba-kapacitet",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 954,
+      "active": true,
+      "name": "INCUBA Type",
+      "description": null,
+      "slug": "incuba-type",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1041,
+      "active": true,
+      "name": "Blind line",
+      "description": "Aspect Living order grid — Blind line",
+      "slug": "al-blind-line",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1042,
+      "active": true,
+      "name": "Fabric",
+      "description": "Aspect Living order grid — Fabric",
+      "slug": "al-fabric",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1043,
+      "active": true,
+      "name": "Colour",
+      "description": "Aspect Living order grid — Colour",
+      "slug": "al-colour",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1044,
+      "active": true,
+      "name": "Fit",
+      "description": "Aspect Living order grid — Fit",
+      "slug": "al-fit",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1045,
+      "active": true,
+      "name": "Inside fit deduction",
+      "description": "Aspect Living order grid — Inside fit deduction",
+      "slug": "al-inside-deduction",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1046,
+      "active": true,
+      "name": "Roll direction",
+      "description": "Aspect Living order grid — Roll direction",
+      "slug": "al-roll",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1047,
+      "active": true,
+      "name": "Control type",
+      "description": "Aspect Living order grid — Control type",
+      "slug": "al-control-type",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1048,
+      "active": true,
+      "name": "Control side",
+      "description": "Aspect Living order grid — Control side",
+      "slug": "al-control-side",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1049,
+      "active": true,
+      "name": "Chain colour",
+      "description": "Aspect Living order grid — Chain colour",
+      "slug": "al-chain-colour",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1050,
+      "active": true,
+      "name": "Link / Set number",
+      "description": "Aspect Living order grid — Link / Set number",
+      "slug": "al-set-number",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1051,
+      "active": true,
+      "name": "Motor model",
+      "description": "Aspect Living order grid — Motor model",
+      "slug": "al-motor-model",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1052,
+      "active": true,
+      "name": "Remote",
+      "description": "Aspect Living order grid — Remote",
+      "slug": "al-remote",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1053,
+      "active": true,
+      "name": "Channel number",
+      "description": "Aspect Living order grid — Channel number",
+      "slug": "al-channel",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1054,
+      "active": true,
+      "name": "Bottom rail shape",
+      "description": "Aspect Living order grid — Bottom rail shape",
+      "slug": "al-bottom-rail-shape",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1055,
+      "active": true,
+      "name": "Bottom rail colour",
+      "description": "Aspect Living order grid — Bottom rail colour",
+      "slug": "al-bottom-rail-colour",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1056,
+      "active": true,
+      "name": "Bracket colour",
+      "description": "Aspect Living order grid — Bracket colour",
+      "slug": "al-bracket-colour",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1057,
+      "active": true,
+      "name": "Test AL",
+      "description": null,
+      "slug": "al-test-delete-me",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1073,
+      "active": true,
+      "name": "HVAC System Family",
+      "description": "Product line / system architecture",
+      "slug": "hvac-system-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1074,
+      "active": true,
+      "name": "Airflow m3h",
+      "description": "Nominal airflow capacity in m³/h",
+      "slug": "hvac-airflow-m3h",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1075,
+      "active": true,
+      "name": "Mounting Type",
+      "description": "Installation mounting position",
+      "slug": "hvac-mounting-type",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1076,
+      "active": true,
+      "name": "Mechanical Cooling",
+      "description": "Built-in mechanical cooling circuit",
+      "slug": "hvac-mechanical-cooling",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 1077,
+      "active": true,
+      "name": "High Efficiency",
+      "description": "Energy class A++ or better",
+      "slug": "hvac-high-efficiency",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 1078,
+      "active": true,
+      "name": "Refrigerant",
+      "description": "Refrigerant type",
+      "slug": "hvac-refrigerant",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1079,
+      "active": true,
+      "name": "Cooling kW",
+      "description": "Cooling capacity in kW",
+      "slug": "hvac-cooling-kw",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1080,
+      "active": true,
+      "name": "Heating kW",
+      "description": "Heating capacity in kW",
+      "slug": "hvac-heating-kw",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1081,
+      "active": true,
+      "name": "Sound Level dBA",
+      "description": "Sound pressure level at 3 m",
+      "slug": "hvac-sound-dba",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1082,
+      "active": true,
+      "name": "Efficiency Class",
+      "description": "EU energy efficiency class",
+      "slug": "hvac-efficiency-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1083,
+      "active": true,
+      "name": "Voltage",
+      "description": "Supply voltage",
+      "slug": "hvac-voltage",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1084,
+      "active": true,
+      "name": "N+1 Redundancy",
+      "description": "Suitable for N+1 redundant installation",
+      "slug": "hvac-redundancy",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 1085,
+      "active": true,
+      "name": "Product Category",
+      "description": "equipment / accessory / service",
+      "slug": "hvac-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1287,
+      "active": true,
+      "name": "CNC Machine Family",
+      "description": "vmc / turning / mill-turn",
+      "slug": "cnc-machine-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1288,
+      "active": true,
+      "name": "CNC Travel Class",
+      "description": "small / medium / large envelope class",
+      "slug": "cnc-travel-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1289,
+      "active": true,
+      "name": "CNC Travel X mm",
+      "description": "X-axis travel in mm",
+      "slug": "cnc-travel-x",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1290,
+      "active": true,
+      "name": "CNC Travel Y mm",
+      "description": "Y-axis travel in mm",
+      "slug": "cnc-travel-y",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1291,
+      "active": true,
+      "name": "CNC Travel Z mm",
+      "description": "Z-axis travel in mm",
+      "slug": "cnc-travel-z",
+      "type": "number",
+      "translation": []
+    },
+    {
+      "id": 1292,
+      "active": true,
+      "name": "CNC Spindle Class",
+      "description": "standard / torque / speed",
+      "slug": "cnc-spindle-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1293,
+      "active": true,
+      "name": "CNC Five Axis Capable",
+      "description": "Machine supports 5-axis kinematics",
+      "slug": "cnc-five-axis",
+      "type": "boolean",
+      "translation": []
+    },
+    {
+      "id": 1294,
+      "active": true,
+      "name": "CNC Process Tag",
+      "description": "turning / 3axis / 5axis / millturn",
+      "slug": "cnc-process-tag",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1295,
+      "active": true,
+      "name": "CNC Material Capability",
+      "description": "aluminium / mild / stainless / hardened",
+      "slug": "cnc-material-capability",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1296,
+      "active": true,
+      "name": "CNC Product Category",
+      "description": "equipment / accessory / service",
+      "slug": "cnc-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1297,
+      "active": true,
+      "name": "CONV Application",
+      "description": "food / logistics / packaging / automotive",
+      "slug": "conv-application",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1298,
+      "active": true,
+      "name": "CONV Environment",
+      "description": "dry / washdown",
+      "slug": "conv-environment",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1299,
+      "active": true,
+      "name": "CONV Module Family",
+      "description": "belt / roller / modular-plastic",
+      "slug": "conv-module-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1300,
+      "active": true,
+      "name": "CONV Load Class",
+      "description": "light / medium / heavy",
+      "slug": "conv-load-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1301,
+      "active": true,
+      "name": "CONV Rate Class",
+      "description": "low / mid / high",
+      "slug": "conv-rate-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1302,
+      "active": true,
+      "name": "CONV Incline Class",
+      "description": "flat / mild / steep",
+      "slug": "conv-incline-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1303,
+      "active": true,
+      "name": "CONV Surface",
+      "description": "pu / pvc / modular / gravity-roller / powered-roller",
+      "slug": "conv-surface",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1304,
+      "active": true,
+      "name": "CONV Drive Class",
+      "description": "end-drive / center / drum / none",
+      "slug": "conv-drive-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1305,
+      "active": true,
+      "name": "CONV Product Category",
+      "description": "module / drive / accessory / service",
+      "slug": "conv-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1306,
+      "active": true,
+      "name": "CONV Hygiene",
+      "description": "standard / food-grade / washdown-ip",
+      "slug": "conv-hygiene",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1307,
+      "active": true,
+      "name": "PKG Platform Family",
+      "description": "ffs / flow-wrap / tray-sealer / wraparound",
+      "slug": "pkg-platform-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1308,
+      "active": true,
+      "name": "PKG Application",
+      "description": "food-dry / washdown / pharma / cpg",
+      "slug": "pkg-application",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1309,
+      "active": true,
+      "name": "PKG Pack Format",
+      "description": "pouch / tray / carton / flow-bag",
+      "slug": "pkg-pack-format",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1310,
+      "active": true,
+      "name": "PKG Throughput Class",
+      "description": "low / mid / high",
+      "slug": "pkg-throughput-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1311,
+      "active": true,
+      "name": "PKG Hygiene Class",
+      "description": "standard / washdown-ip / pharma",
+      "slug": "pkg-hygiene-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1312,
+      "active": true,
+      "name": "PKG Product Category",
+      "description": "equipment / tooling / accessory / service",
+      "slug": "pkg-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1313,
+      "active": true,
+      "name": "PUMP Family",
+      "description": "end-suction / multistage / pd",
+      "slug": "pump-family",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1314,
+      "active": true,
+      "name": "PUMP Fluid Class",
+      "description": "water / chemical / oil / slurry",
+      "slug": "pump-fluid-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1315,
+      "active": true,
+      "name": "PUMP Flow Class",
+      "description": "low / mid / high",
+      "slug": "pump-flow-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1316,
+      "active": true,
+      "name": "PUMP Head Class",
+      "description": "low / mid / high",
+      "slug": "pump-head-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1317,
+      "active": true,
+      "name": "PUMP Seal Class",
+      "description": "single / double / cartridge / hard-face",
+      "slug": "pump-seal-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1318,
+      "active": true,
+      "name": "PUMP Product Category",
+      "description": "equipment / seal / motor / accessory / service",
+      "slug": "pump-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1322,
+      "active": true,
+      "name": "TANK Application",
+      "description": "water / food / chemical / dry-bulk",
+      "slug": "tank-application",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1323,
+      "active": true,
+      "name": "TANK Material Class",
+      "description": "cs / ss304 / ss316",
+      "slug": "tank-material-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1324,
+      "active": true,
+      "name": "TANK Volume Class",
+      "description": "small / mid / large / xl",
+      "slug": "tank-volume-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1325,
+      "active": true,
+      "name": "TANK Diameter Class",
+      "description": "compact / standard / oversize / special",
+      "slug": "tank-diameter-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1326,
+      "active": true,
+      "name": "TANK Transport Class",
+      "description": "road / oversize / special",
+      "slug": "tank-transport-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1327,
+      "active": true,
+      "name": "TANK Product Category",
+      "description": "vessel / nozzle / accessory / review / service",
+      "slug": "tank-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1328,
+      "active": true,
+      "name": "CP Application",
+      "description": "pump / conveyor / hvac / machine",
+      "slug": "cp-application",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1329,
+      "active": true,
+      "name": "CP Enclosure Class",
+      "description": "800 / 1000 / 1200",
+      "slug": "cp-enclosure-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1330,
+      "active": true,
+      "name": "CP VFD Count",
+      "description": "1 / 2 / 3",
+      "slug": "cp-vfd-count",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1331,
+      "active": true,
+      "name": "CP Voltage Class",
+      "description": "400 / 230",
+      "slug": "cp-voltage-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1332,
+      "active": true,
+      "name": "CP Environment",
+      "description": "indoor / outdoor",
+      "slug": "cp-environment",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1333,
+      "active": true,
+      "name": "CP Product Category",
+      "description": "enclosure / drive / power / protection / cooling / review / service",
+      "slug": "cp-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1334,
+      "active": true,
+      "name": "RACK Pallet Weight",
+      "description": "700 / 900 / 1200",
+      "slug": "rack-pallet-weight",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1335,
+      "active": true,
+      "name": "RACK Beam Class",
+      "description": "b2400 / b3000",
+      "slug": "rack-beam-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1336,
+      "active": true,
+      "name": "RACK Frame Class",
+      "description": "f1 / f2",
+      "slug": "rack-frame-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1337,
+      "active": true,
+      "name": "RACK Levels",
+      "description": "3 / 4 / 5",
+      "slug": "rack-levels",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1338,
+      "active": true,
+      "name": "RACK Site Class",
+      "description": "standard / seismic",
+      "slug": "rack-site-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1339,
+      "active": true,
+      "name": "RACK Product Category",
+      "description": "beam / frame / accessory / review / service",
+      "slug": "rack-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1340,
+      "active": true,
+      "name": "DUST Dust Class",
+      "description": "wood / metal / mineral / powder",
+      "slug": "dust-dust-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1341,
+      "active": true,
+      "name": "DUST Collector Class",
+      "description": "dc6 / dc10",
+      "slug": "dust-collector-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1342,
+      "active": true,
+      "name": "DUST Fan Class",
+      "description": "f2 / f3",
+      "slug": "dust-fan-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1343,
+      "active": true,
+      "name": "DUST Duct Class",
+      "description": "small / balanced / large",
+      "slug": "dust-duct-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1344,
+      "active": true,
+      "name": "DUST Product Category",
+      "description": "collector / fan / accessory / review / service",
+      "slug": "dust-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1345,
+      "active": true,
+      "name": "WT Flow Class",
+      "description": "12 / 20 / 28",
+      "slug": "wt-flow-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1346,
+      "active": true,
+      "name": "WT Membrane Class",
+      "description": "m12 / m16",
+      "slug": "wt-membrane-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1347,
+      "active": true,
+      "name": "WT Pump Class",
+      "description": "p20 / p30",
+      "slug": "wt-pump-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1348,
+      "active": true,
+      "name": "WT Skid Class",
+      "description": "single / dual",
+      "slug": "wt-skid-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1349,
+      "active": true,
+      "name": "WT Product Category",
+      "description": "membrane / pump / accessory / review / service",
+      "slug": "wt-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1350,
+      "active": true,
+      "name": "MIX Application",
+      "description": "blend / suspend / heat / shear",
+      "slug": "mix-application",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1351,
+      "active": true,
+      "name": "MIX Viscosity Band",
+      "description": "100 / 500 / 5000",
+      "slug": "mix-viscosity",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1352,
+      "active": true,
+      "name": "MIX Impeller Class",
+      "description": "hydro / pbt / anchor / hs",
+      "slug": "mix-impeller-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1353,
+      "active": true,
+      "name": "MIX Motor Class",
+      "description": "m7_5 / m11",
+      "slug": "mix-motor-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1354,
+      "active": true,
+      "name": "MIX Shaft Class",
+      "description": "s40 / s60",
+      "slug": "mix-shaft-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1355,
+      "active": true,
+      "name": "MIX Product Category",
+      "description": "impeller / motor / shaft / seal / review / service",
+      "slug": "mix-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1368,
+      "active": true,
+      "name": "Dinor sistema",
+      "description": null,
+      "slug": "dinor-sistema",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1369,
+      "active": true,
+      "name": "Dinor perfil",
+      "description": null,
+      "slug": "dinor-perfil",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1370,
+      "active": true,
+      "name": "Dinor panel",
+      "description": null,
+      "slug": "dinor-panel",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1371,
+      "active": true,
+      "name": "Dinor vidrio",
+      "description": null,
+      "slug": "dinor-vidrio",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1372,
+      "active": true,
+      "name": "Dinor acabado",
+      "description": null,
+      "slug": "dinor-acabado",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1378,
+      "active": true,
+      "name": "Body Material",
+      "description": "Material used for the truck body and cargo bed.",
+      "slug": "truck-body-material",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1379,
+      "active": true,
+      "name": "Paint Finish",
+      "description": "Exterior paint colour and finish.",
+      "slug": "truck-paint-finish",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1380,
+      "active": true,
+      "name": "Upholstery",
+      "description": "Seat and cabin upholstery material.",
+      "slug": "truck-upholstery",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1381,
+      "active": true,
+      "name": "Accessory Category",
+      "description": "Groups truck add-on products so configurator elements can sync them automatically.",
+      "slug": "truck-accessory-category",
+      "type": "string",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1405,
+      "active": true,
+      "name": "Weight (kg)",
+      "description": "Weight of the part in kg. Summed by the rule \"Calculate Total Truck Weight\".",
+      "slug": "weight-kg",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 1406,
+      "active": true,
+      "name": "Max kilometres per year",
+      "description": "Most kilometres per year this engine is built for.",
+      "slug": "max-recommended-distance",
+      "type": "number",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1407,
+      "active": true,
+      "name": "Rear axles",
+      "description": "Number of rear axles a part is made for.",
+      "slug": "rear-axles",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 1409,
+      "active": true,
+      "name": "Guided role",
+      "description": "Which step of the guided truck configurator this product belongs to.",
+      "slug": "guided-role",
+      "type": "string",
+      "translation": null
+    },
+    {
+      "id": 1410,
+      "active": true,
+      "name": "Application",
+      "description": "The kind of work this truck, bed, or add-on is built for.",
+      "slug": "application",
+      "type": "string",
+      "translation": null
+    },
+    {
+      "id": 1411,
+      "active": true,
+      "name": "Terrain",
+      "description": "Surfaces this drivetrain or add-on is built for.",
+      "slug": "terrain",
+      "type": "string",
+      "translation": null
+    },
+    {
+      "id": 1412,
+      "active": true,
+      "name": "Emission class",
+      "description": "Emission zone this engine is allowed in. None means no zone restriction.",
+      "slug": "emission-class",
+      "type": "string",
+      "translation": null
+    },
+    {
+      "id": 1413,
+      "active": true,
+      "name": "Max payload (kg)",
+      "description": "Highest payload this model, drivetrain, or bed may carry.",
+      "slug": "max-payload-kg",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 1414,
+      "active": true,
+      "name": "Max driving hours per day",
+      "description": "Most hours per day a driver can work comfortably from this cab.",
+      "slug": "max-shift-hours",
+      "type": "number",
+      "translation": {
+        "da_name": null,
+        "da_description": null,
+        "de_name": null,
+        "de_description": null,
+        "es_name": null,
+        "es_description": null,
+        "no_name": null,
+        "no_description": null
+      }
+    },
+    {
+      "id": 1415,
+      "active": true,
+      "name": "Body length (mm)",
+      "description": "Length of the cargo bed.",
+      "slug": "body-length-mm",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 1416,
+      "active": true,
+      "name": "Guide price (DKK)",
+      "description": "Denmark list price used to recommend the cheapest product that still fits. Not a second sales price.",
+      "slug": "guide-price-dkk",
+      "type": "number",
+      "translation": null
+    },
+    {
+      "id": 1417,
+      "active": true,
+      "name": "Guided truck",
+      "description": "Marks a product the guided truck configurator is allowed to hide or recommend. Keeps where-not filters inside this assortment.",
+      "slug": "guided-truck",
+      "type": "boolean",
+      "translation": null
+    },
+    {
+      "id": 1418,
+      "active": true,
+      "name": "Requires charging",
+      "description": "True when the engine needs depot charging.",
+      "slug": "requires-charging",
+      "type": "boolean",
+      "translation": null
+    },
+    {
+      "id": 1489,
+      "active": true,
+      "name": "STL Frame Band",
+      "description": "Maximum finished fabric width band (mm nominal)",
+      "slug": "stl-frame-band",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1490,
+      "active": true,
+      "name": "STL Product Category",
+      "description": "equipment / module / accessory / service",
+      "slug": "stl-product-category",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1491,
+      "active": true,
+      "name": "TQ Flow Band",
+      "description": "f15 / f30 / f60 m³/h demo",
+      "slug": "tq-flow-band",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1492,
+      "active": true,
+      "name": "TQ Equipment Class",
+      "description": "size bands for filters and softeners",
+      "slug": "tq-equip-class",
+      "type": "string",
+      "translation": []
+    },
+    {
+      "id": 1493,
+      "active": true,
+      "name": "TQ Product Category",
+      "description": "equipment / accessory / service / review",
+      "slug": "tq-product-category",
+      "type": "string",
+      "translation": []
+    }
+  ],
+  "attributes": [
+    {
+      "id": 24,
+      "value": "White",
+      "description": null,
+      "image": null,
+      "translation": {
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 8
+    },
+    {
+      "id": 25,
+      "value": "Black",
+      "description": null,
+      "image": null,
+      "translation": {
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 8
+    },
+    {
+      "id": 1176,
+      "value": "Blue",
+      "description": null,
+      "image": null,
+      "translation": {
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 8
+    },
+    {
+      "id": 1195,
+      "value": "Red",
+      "description": null,
+      "image": null,
+      "translation": {
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 8
+    },
+    {
+      "id": 53,
+      "value": "120000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 15
+    },
+    {
+      "id": 1175,
+      "value": "150000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 15
+    },
+    {
+      "id": 2932,
+      "value": "10000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 15
+    },
+    {
+      "id": 2392,
+      "value": "Cab",
+      "description": null,
+      "image": "11142caf22c9fec03ccc47bd6c6019c1b3902ea805a59d14e07797be6835d294.png",
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 128
+    },
+    {
+      "id": 2926,
+      "value": "Software",
+      "description": null,
+      "image": "91d2b3c9ae6099be6c91d73010188182a8420260b9c8de1787a64b0fee1c3bb6.png",
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 128
+    },
+    {
+      "id": 2927,
+      "value": "Add-on",
+      "description": null,
+      "image": "ea3215867afeb7def9648c57e0ce0f97b9b1a52b00b21d6d9fec7fb85e52220e.png",
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 128
+    },
+    {
+      "id": 2393,
+      "value": "X1",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 129
+    },
+    {
+      "id": 2394,
+      "value": "X2",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 129
+    },
+    {
+      "id": 2395,
+      "value": "X3",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 129
+    },
+    {
+      "id": 2396,
+      "value": "X4",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 129
+    },
+    {
+      "id": 2576,
+      "value": "15.14",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2579,
+      "value": "9.26",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2582,
+      "value": "29.27",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2585,
+      "value": "18.11",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2588,
+      "value": "21.63",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2591,
+      "value": "29.36",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2594,
+      "value": "24.5",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2597,
+      "value": "27.67",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2600,
+      "value": "27.28",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2603,
+      "value": "20.92",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2606,
+      "value": "28.16",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2609,
+      "value": "12.75",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2612,
+      "value": "13.47",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2615,
+      "value": "13.81",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2618,
+      "value": "7.98",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2621,
+      "value": "13.66",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2624,
+      "value": "18.9",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2627,
+      "value": "18.08",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2630,
+      "value": "11.03",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2633,
+      "value": "19.95",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2636,
+      "value": "12.8",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2638,
+      "value": "16.93",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2641,
+      "value": "11.42",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2644,
+      "value": "14.95",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2647,
+      "value": "15.33",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2650,
+      "value": "15.38",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2653,
+      "value": "9.28",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2656,
+      "value": "14.83",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2659,
+      "value": "18.56",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 2662,
+      "value": "19.4",
+      "description": null,
+      "image": null,
+      "product_property_id": 139
+    },
+    {
+      "id": 6164,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 139
+    },
+    {
+      "id": 2577,
+      "value": "22.99",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2580,
+      "value": "27.67",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2583,
+      "value": "20.59",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2586,
+      "value": "22.17",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2589,
+      "value": "29.84",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2592,
+      "value": "20.72",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2595,
+      "value": "25.98",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2598,
+      "value": "11.83",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2601,
+      "value": "18.3",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2604,
+      "value": "11.2",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2607,
+      "value": "17.28",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2610,
+      "value": "19.06",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2613,
+      "value": "27.35",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2616,
+      "value": "5.62",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2619,
+      "value": "28.46",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2622,
+      "value": "9.73",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2625,
+      "value": "18.57",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2628,
+      "value": "21.86",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2631,
+      "value": "16.01",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2634,
+      "value": "24.86",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2637,
+      "value": "21.34",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2639,
+      "value": "9.29",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2642,
+      "value": "16.95",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2645,
+      "value": "11.27",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2648,
+      "value": "14.44",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2651,
+      "value": "19.92",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2654,
+      "value": "17.74",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2657,
+      "value": "24.2",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2660,
+      "value": "28.02",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2663,
+      "value": "17.13",
+      "description": null,
+      "image": null,
+      "product_property_id": 140
+    },
+    {
+      "id": 2578,
+      "value": "13.08",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2581,
+      "value": "22.47",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2584,
+      "value": "27.93",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2587,
+      "value": "28.38",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2590,
+      "value": "16.48",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2593,
+      "value": "27.76",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2596,
+      "value": "25.7",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2599,
+      "value": "28.28",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2602,
+      "value": "29.88",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2605,
+      "value": "21.68",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2608,
+      "value": "25.36",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2611,
+      "value": "20.55",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2614,
+      "value": "24.99",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2617,
+      "value": "7.5",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2620,
+      "value": "8.88",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2623,
+      "value": "11.01",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2626,
+      "value": "5.77",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2629,
+      "value": "9.26",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2632,
+      "value": "22.11",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2635,
+      "value": "27.54",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2640,
+      "value": "27.15",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2643,
+      "value": "7.44",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2646,
+      "value": "26.31",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2649,
+      "value": "26.65",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2652,
+      "value": "18.12",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2655,
+      "value": "21.72",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2658,
+      "value": "15.07",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2661,
+      "value": "21.46",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2664,
+      "value": "18.67",
+      "description": null,
+      "image": null,
+      "product_property_id": 141
+    },
+    {
+      "id": 2914,
+      "value": "Monatlich",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 160
+    },
+    {
+      "id": 2915,
+      "value": "Einmalig",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 160
+    },
+    {
+      "id": 2923,
+      "value": "Starter",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 161
+    },
+    {
+      "id": 2924,
+      "value": "Business",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 161
+    },
+    {
+      "id": 2925,
+      "value": "Enterprise",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 161
+    },
+    {
+      "id": 2916,
+      "value": "10",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 162
+    },
+    {
+      "id": 2917,
+      "value": "50",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 162
+    },
+    {
+      "id": 2918,
+      "value": "100",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 162
+    },
+    {
+      "id": 2919,
+      "value": "250",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 162
+    },
+    {
+      "id": 2908,
+      "value": "Standard",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 164
+    },
+    {
+      "id": 2909,
+      "value": "Enhanced",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 164
+    },
+    {
+      "id": 2910,
+      "value": "Premium",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 164
+    },
+    {
+      "id": 2911,
+      "value": "GB",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 166
+    },
+    {
+      "id": 2912,
+      "value": "Tage",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 166
+    },
+    {
+      "id": 2913,
+      "value": "User",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 166
+    },
+    {
+      "id": 2928,
+      "value": "12",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 168
+    },
+    {
+      "id": 2929,
+      "value": "18",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 168
+    },
+    {
+      "id": 2930,
+      "value": "24",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 168
+    },
+    {
+      "id": 2931,
+      "value": "36",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null
+      },
+      "product_property_id": 168
+    },
+    {
+      "id": 21664,
+      "value": "MB750",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21665,
+      "value": "MB850",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21666,
+      "value": "MB1000",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21667,
+      "value": "MB1300",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21668,
+      "value": "MB1100",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21669,
+      "value": "MB1400",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21670,
+      "value": "MB1700",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21671,
+      "value": "MB Quattro",
+      "description": null,
+      "image": null,
+      "product_property_id": 785
+    },
+    {
+      "id": 21672,
+      "value": "Privat",
+      "description": null,
+      "image": null,
+      "product_property_id": 786
+    },
+    {
+      "id": 21673,
+      "value": "Öffentlich",
+      "description": null,
+      "image": null,
+      "product_property_id": 786
+    },
+    {
+      "id": 21674,
+      "value": "Mobil/Event",
+      "description": null,
+      "image": null,
+      "product_property_id": 786
+    },
+    {
+      "id": 21675,
+      "value": "bis 750 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21676,
+      "value": "bis 910 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21677,
+      "value": "bis 1000 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21678,
+      "value": "bis 1280 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21679,
+      "value": "bis 1490 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21680,
+      "value": "bis 1790 mm",
+      "description": null,
+      "image": null,
+      "product_property_id": 787
+    },
+    {
+      "id": 21681,
+      "value": "260 kg",
+      "description": null,
+      "image": null,
+      "product_property_id": 788
+    },
+    {
+      "id": 21682,
+      "value": "300 kg",
+      "description": null,
+      "image": null,
+      "product_property_id": 788
+    },
+    {
+      "id": 21683,
+      "value": "350 kg",
+      "description": null,
+      "image": null,
+      "product_property_id": 788
+    },
+    {
+      "id": 21684,
+      "value": "500 kg",
+      "description": null,
+      "image": null,
+      "product_property_id": 788
+    },
+    {
+      "id": 21685,
+      "value": "Durchfahrt",
+      "description": null,
+      "image": null,
+      "product_property_id": 789
+    },
+    {
+      "id": 21686,
+      "value": "Über-Eck",
+      "description": null,
+      "image": null,
+      "product_property_id": 789
+    },
+    {
+      "id": 21687,
+      "value": "3 Seiten / 360°",
+      "description": null,
+      "image": null,
+      "product_property_id": 789
+    },
+    {
+      "id": 21688,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 790
+    },
+    {
+      "id": 21689,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 790
+    },
+    {
+      "id": 21690,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 791
+    },
+    {
+      "id": 21691,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 791
+    },
+    {
+      "id": 22851,
+      "value": "4",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22852,
+      "value": "150",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22853,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22854,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22855,
+      "value": "505",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22856,
+      "value": "510",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22857,
+      "value": "515",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22858,
+      "value": "800",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22859,
+      "value": "805",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22860,
+      "value": "810",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22861,
+      "value": "815",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22862,
+      "value": "820",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22863,
+      "value": "825",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22864,
+      "value": "900",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22865,
+      "value": "905",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22866,
+      "value": "950",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22867,
+      "value": "955",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22868,
+      "value": "1000",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22869,
+      "value": "1005",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22870,
+      "value": "1200",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22871,
+      "value": "1205",
+      "description": null,
+      "image": null,
+      "product_property_id": 916
+    },
+    {
+      "id": 22872,
+      "value": "Gulv",
+      "description": null,
+      "image": null,
+      "product_property_id": 917
+    },
+    {
+      "id": 22873,
+      "value": "Loft",
+      "description": null,
+      "image": null,
+      "product_property_id": 917
+    },
+    {
+      "id": 22874,
+      "value": "Loft & Gulv",
+      "description": null,
+      "image": null,
+      "product_property_id": 917
+    },
+    {
+      "id": 22875,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 918
+    },
+    {
+      "id": 22876,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 919
+    },
+    {
+      "id": 22877,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 919
+    },
+    {
+      "id": 23028,
+      "value": "sectional",
+      "description": null,
+      "image": null,
+      "product_property_id": 921
+    },
+    {
+      "id": 23029,
+      "value": "rolling_steel",
+      "description": null,
+      "image": null,
+      "product_property_id": 921
+    },
+    {
+      "id": 23030,
+      "value": "high_speed",
+      "description": null,
+      "image": null,
+      "product_property_id": 921
+    },
+    {
+      "id": 23031,
+      "value": "fire_rated",
+      "description": null,
+      "image": null,
+      "product_property_id": 921
+    },
+    {
+      "id": 23032,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 922
+    },
+    {
+      "id": 23033,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 922
+    },
+    {
+      "id": 23034,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 923
+    },
+    {
+      "id": 23035,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 923
+    },
+    {
+      "id": 23036,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 924
+    },
+    {
+      "id": 23037,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 924
+    },
+    {
+      "id": 23038,
+      "value": "0",
+      "description": null,
+      "image": null,
+      "product_property_id": 925
+    },
+    {
+      "id": 23039,
+      "value": "6",
+      "description": null,
+      "image": null,
+      "product_property_id": 925
+    },
+    {
+      "id": 23040,
+      "value": "12",
+      "description": null,
+      "image": null,
+      "product_property_id": 925
+    },
+    {
+      "id": 23041,
+      "value": "32",
+      "description": null,
+      "image": null,
+      "product_property_id": 925
+    },
+    {
+      "id": 23042,
+      "value": "14",
+      "description": null,
+      "image": null,
+      "product_property_id": 926
+    },
+    {
+      "id": 23043,
+      "value": "16",
+      "description": null,
+      "image": null,
+      "product_property_id": 926
+    },
+    {
+      "id": 23044,
+      "value": "22",
+      "description": null,
+      "image": null,
+      "product_property_id": 926
+    },
+    {
+      "id": 23045,
+      "value": "24",
+      "description": null,
+      "image": null,
+      "product_property_id": 926
+    },
+    {
+      "id": 23046,
+      "value": "18",
+      "description": null,
+      "image": null,
+      "product_property_id": 927
+    },
+    {
+      "id": 23047,
+      "value": "21",
+      "description": null,
+      "image": null,
+      "product_property_id": 927
+    },
+    {
+      "id": 23048,
+      "value": "24",
+      "description": null,
+      "image": null,
+      "product_property_id": 927
+    },
+    {
+      "id": 23049,
+      "value": "11",
+      "description": null,
+      "image": null,
+      "product_property_id": 928
+    },
+    {
+      "id": 23050,
+      "value": "12",
+      "description": null,
+      "image": null,
+      "product_property_id": 928
+    },
+    {
+      "id": 23051,
+      "value": "16",
+      "description": null,
+      "image": null,
+      "product_property_id": 928
+    },
+    {
+      "id": 23052,
+      "value": "18",
+      "description": null,
+      "image": null,
+      "product_property_id": 928
+    },
+    {
+      "id": 23053,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 929
+    },
+    {
+      "id": 23054,
+      "value": "heavy",
+      "description": null,
+      "image": null,
+      "product_property_id": 929
+    },
+    {
+      "id": 23055,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 929
+    },
+    {
+      "id": 23056,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 930
+    },
+    {
+      "id": 23057,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 930
+    },
+    {
+      "id": 23058,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 931
+    },
+    {
+      "id": 23059,
+      "value": "elevated",
+      "description": null,
+      "image": null,
+      "product_property_id": 931
+    },
+    {
+      "id": 23060,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 931
+    },
+    {
+      "id": 23061,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 932
+    },
+    {
+      "id": 23062,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 932
+    },
+    {
+      "id": 23063,
+      "value": "0",
+      "description": null,
+      "image": null,
+      "product_property_id": 933
+    },
+    {
+      "id": 23064,
+      "value": "30",
+      "description": null,
+      "image": null,
+      "product_property_id": 933
+    },
+    {
+      "id": 23065,
+      "value": "50",
+      "description": null,
+      "image": null,
+      "product_property_id": 933
+    },
+    {
+      "id": 23066,
+      "value": "60",
+      "description": null,
+      "image": null,
+      "product_property_id": 933
+    },
+    {
+      "id": 23407,
+      "value": "katrinebjerg",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "INCUBA Katrinebjerg"
+      },
+      "product_property_id": 952
+    },
+    {
+      "id": 23408,
+      "value": "next",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "INCUBA Next"
+      },
+      "product_property_id": 952
+    },
+    {
+      "id": 23409,
+      "value": "navitas",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "INCUBA Navitas"
+      },
+      "product_property_id": 952
+    },
+    {
+      "id": 23410,
+      "value": "skejby",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "INCUBA Skejby"
+      },
+      "product_property_id": 952
+    },
+    {
+      "id": 23411,
+      "value": "2",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "1-2 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23412,
+      "value": "3",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "3 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23413,
+      "value": "4",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "4 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23414,
+      "value": "5",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "5 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23415,
+      "value": "6",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "6 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23416,
+      "value": "8-9",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "8-9 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23417,
+      "value": "9",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "9 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23418,
+      "value": "10",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "10 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23419,
+      "value": "26-28",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "26-28 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23420,
+      "value": "45",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "40-50 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23421,
+      "value": "55",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "50-60 personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23422,
+      "value": "70",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "60+ personer"
+      },
+      "product_property_id": 953
+    },
+    {
+      "id": 23423,
+      "value": "kontor",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": "Kontorlejemål"
+      },
+      "product_property_id": 954
+    },
+    {
+      "id": 24442,
+      "value": "FB003 — Blockout Roller Blinds",
+      "description": null,
+      "image": null,
+      "product_property_id": 1041
+    },
+    {
+      "id": 24443,
+      "value": "Sunscreen / Light Filtering Roller Blind",
+      "description": null,
+      "image": null,
+      "product_property_id": 1041
+    },
+    {
+      "id": 24444,
+      "value": "Motorised Roller Blind",
+      "description": null,
+      "image": null,
+      "product_property_id": 1041
+    },
+    {
+      "id": 24445,
+      "value": "Icon_FR",
+      "description": null,
+      "image": null,
+      "product_property_id": 1042
+    },
+    {
+      "id": 24446,
+      "value": "Sheerweave_4500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1042
+    },
+    {
+      "id": 24447,
+      "value": "Vibe",
+      "description": null,
+      "image": null,
+      "product_property_id": 1042
+    },
+    {
+      "id": 24448,
+      "value": "Mantra_LF",
+      "description": null,
+      "image": null,
+      "product_property_id": 1042
+    },
+    {
+      "id": 24449,
+      "value": "Maritime",
+      "description": null,
+      "image": null,
+      "product_property_id": 1043
+    },
+    {
+      "id": 24450,
+      "value": "White",
+      "description": null,
+      "image": null,
+      "product_property_id": 1043
+    },
+    {
+      "id": 24451,
+      "value": "Charcoal",
+      "description": null,
+      "image": null,
+      "product_property_id": 1043
+    },
+    {
+      "id": 24452,
+      "value": "Sandstone",
+      "description": null,
+      "image": null,
+      "product_property_id": 1043
+    },
+    {
+      "id": 24453,
+      "value": "Inside",
+      "description": null,
+      "image": null,
+      "product_property_id": 1044
+    },
+    {
+      "id": 24454,
+      "value": "Outside",
+      "description": null,
+      "image": null,
+      "product_property_id": 1044
+    },
+    {
+      "id": 24455,
+      "value": "With deduction",
+      "description": null,
+      "image": null,
+      "product_property_id": 1045
+    },
+    {
+      "id": 24456,
+      "value": "No deduction",
+      "description": null,
+      "image": null,
+      "product_property_id": 1045
+    },
+    {
+      "id": 24457,
+      "value": "Back",
+      "description": null,
+      "image": null,
+      "product_property_id": 1046
+    },
+    {
+      "id": 24458,
+      "value": "Front",
+      "description": null,
+      "image": null,
+      "product_property_id": 1046
+    },
+    {
+      "id": 24459,
+      "value": "Chain / manual",
+      "description": null,
+      "image": null,
+      "product_property_id": 1047
+    },
+    {
+      "id": 24460,
+      "value": "Motorised",
+      "description": null,
+      "image": null,
+      "product_property_id": 1047
+    },
+    {
+      "id": 24461,
+      "value": "Left",
+      "description": null,
+      "image": null,
+      "product_property_id": 1048
+    },
+    {
+      "id": 24462,
+      "value": "Right",
+      "description": null,
+      "image": null,
+      "product_property_id": 1048
+    },
+    {
+      "id": 24463,
+      "value": "Black",
+      "description": null,
+      "image": null,
+      "product_property_id": 1049
+    },
+    {
+      "id": 24464,
+      "value": "White",
+      "description": null,
+      "image": null,
+      "product_property_id": 1049
+    },
+    {
+      "id": 24465,
+      "value": "Ivory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1049
+    },
+    {
+      "id": 24466,
+      "value": "Grey",
+      "description": null,
+      "image": null,
+      "product_property_id": 1049
+    },
+    {
+      "id": 24467,
+      "value": "STD 11",
+      "description": null,
+      "image": null,
+      "product_property_id": 1050
+    },
+    {
+      "id": 24468,
+      "value": "STD 21",
+      "description": null,
+      "image": null,
+      "product_property_id": 1050
+    },
+    {
+      "id": 24469,
+      "value": "STD 22",
+      "description": null,
+      "image": null,
+      "product_property_id": 1050
+    },
+    {
+      "id": 24470,
+      "value": "STD 31",
+      "description": null,
+      "image": null,
+      "product_property_id": 1050
+    },
+    {
+      "id": 24471,
+      "value": "STD 32",
+      "description": null,
+      "image": null,
+      "product_property_id": 1050
+    },
+    {
+      "id": 24472,
+      "value": "Battery Acmeda Zero 2.0 Nm",
+      "description": null,
+      "image": null,
+      "product_property_id": 1051
+    },
+    {
+      "id": 24473,
+      "value": "Battery Acmeda Zero 1.1 Nm",
+      "description": null,
+      "image": null,
+      "product_property_id": 1051
+    },
+    {
+      "id": 24474,
+      "value": "Louvolite R1912 1.2 Nm",
+      "description": null,
+      "image": null,
+      "product_property_id": 1051
+    },
+    {
+      "id": 24475,
+      "value": "Acmeda Hardwired E6",
+      "description": null,
+      "image": null,
+      "product_property_id": 1051
+    },
+    {
+      "id": 24476,
+      "value": "None",
+      "description": null,
+      "image": null,
+      "product_property_id": 1052
+    },
+    {
+      "id": 24477,
+      "value": "Acmeda 5 Channel",
+      "description": null,
+      "image": null,
+      "product_property_id": 1052
+    },
+    {
+      "id": 24478,
+      "value": "Acmeda 15 Channel",
+      "description": null,
+      "image": null,
+      "product_property_id": 1052
+    },
+    {
+      "id": 24479,
+      "value": "Louvolite 1 Channel",
+      "description": null,
+      "image": null,
+      "product_property_id": 1052
+    },
+    {
+      "id": 24480,
+      "value": "1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1053
+    },
+    {
+      "id": 24481,
+      "value": "2",
+      "description": null,
+      "image": null,
+      "product_property_id": 1053
+    },
+    {
+      "id": 24482,
+      "value": "3",
+      "description": null,
+      "image": null,
+      "product_property_id": 1053
+    },
+    {
+      "id": 24483,
+      "value": "4",
+      "description": null,
+      "image": null,
+      "product_property_id": 1053
+    },
+    {
+      "id": 24484,
+      "value": "5",
+      "description": null,
+      "image": null,
+      "product_property_id": 1053
+    },
+    {
+      "id": 24485,
+      "value": "Oval",
+      "description": null,
+      "image": null,
+      "product_property_id": 1054
+    },
+    {
+      "id": 24486,
+      "value": "Flat",
+      "description": null,
+      "image": null,
+      "product_property_id": 1054
+    },
+    {
+      "id": 24487,
+      "value": "D30",
+      "description": null,
+      "image": null,
+      "product_property_id": 1054
+    },
+    {
+      "id": 24488,
+      "value": "Round",
+      "description": null,
+      "image": null,
+      "product_property_id": 1054
+    },
+    {
+      "id": 24489,
+      "value": "Black",
+      "description": null,
+      "image": null,
+      "product_property_id": 1055
+    },
+    {
+      "id": 24490,
+      "value": "White",
+      "description": null,
+      "image": null,
+      "product_property_id": 1055
+    },
+    {
+      "id": 24491,
+      "value": "Anodised",
+      "description": null,
+      "image": null,
+      "product_property_id": 1055
+    },
+    {
+      "id": 24492,
+      "value": "Shoji",
+      "description": null,
+      "image": null,
+      "product_property_id": 1055
+    },
+    {
+      "id": 24493,
+      "value": "Black",
+      "description": null,
+      "image": null,
+      "product_property_id": 1056
+    },
+    {
+      "id": 24494,
+      "value": "White",
+      "description": null,
+      "image": null,
+      "product_property_id": 1056
+    },
+    {
+      "id": 24495,
+      "value": "Ivory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1056
+    },
+    {
+      "id": 24496,
+      "value": "Grey",
+      "description": null,
+      "image": null,
+      "product_property_id": 1056
+    },
+    {
+      "id": 24805,
+      "value": "heat-recovery",
+      "description": null,
+      "image": null,
+      "product_property_id": 1073
+    },
+    {
+      "id": 24806,
+      "value": "central-ahu",
+      "description": null,
+      "image": null,
+      "product_property_id": 1073
+    },
+    {
+      "id": 24807,
+      "value": "vrf",
+      "description": null,
+      "image": null,
+      "product_property_id": 1073
+    },
+    {
+      "id": 24808,
+      "value": "chiller-ahu",
+      "description": null,
+      "image": null,
+      "product_property_id": 1073
+    },
+    {
+      "id": 24809,
+      "value": "rooftop",
+      "description": null,
+      "image": null,
+      "product_property_id": 1073
+    },
+    {
+      "id": 24810,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24811,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24812,
+      "value": "800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24813,
+      "value": "1200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24814,
+      "value": "1500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24815,
+      "value": "2000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24816,
+      "value": "3000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24817,
+      "value": "5000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24818,
+      "value": "8000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24819,
+      "value": "12000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24820,
+      "value": "15000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24821,
+      "value": "25000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1074
+    },
+    {
+      "id": 24822,
+      "value": "ceiling",
+      "description": null,
+      "image": null,
+      "product_property_id": 1075
+    },
+    {
+      "id": 24823,
+      "value": "floor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1075
+    },
+    {
+      "id": 24824,
+      "value": "wall",
+      "description": null,
+      "image": null,
+      "product_property_id": 1075
+    },
+    {
+      "id": 24825,
+      "value": "rooftop",
+      "description": null,
+      "image": null,
+      "product_property_id": 1075
+    },
+    {
+      "id": 24826,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 1076
+    },
+    {
+      "id": 24827,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 1076
+    },
+    {
+      "id": 24828,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 1077
+    },
+    {
+      "id": 24829,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 1077
+    },
+    {
+      "id": 24830,
+      "value": "R32",
+      "description": null,
+      "image": null,
+      "product_property_id": 1078
+    },
+    {
+      "id": 24831,
+      "value": "R410A",
+      "description": null,
+      "image": null,
+      "product_property_id": 1078
+    },
+    {
+      "id": 24832,
+      "value": "R454B",
+      "description": null,
+      "image": null,
+      "product_property_id": 1078
+    },
+    {
+      "id": 24833,
+      "value": "none",
+      "description": null,
+      "image": null,
+      "product_property_id": 1078
+    },
+    {
+      "id": 24834,
+      "value": "30",
+      "description": null,
+      "image": null,
+      "product_property_id": 1079
+    },
+    {
+      "id": 24835,
+      "value": "50",
+      "description": null,
+      "image": null,
+      "product_property_id": 1079
+    },
+    {
+      "id": 24836,
+      "value": "80",
+      "description": null,
+      "image": null,
+      "product_property_id": 1079
+    },
+    {
+      "id": 24837,
+      "value": "120",
+      "description": null,
+      "image": null,
+      "product_property_id": 1079
+    },
+    {
+      "id": 24838,
+      "value": "200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1079
+    },
+    {
+      "id": 24839,
+      "value": "25",
+      "description": null,
+      "image": null,
+      "product_property_id": 1080
+    },
+    {
+      "id": 24840,
+      "value": "45",
+      "description": null,
+      "image": null,
+      "product_property_id": 1080
+    },
+    {
+      "id": 24841,
+      "value": "70",
+      "description": null,
+      "image": null,
+      "product_property_id": 1080
+    },
+    {
+      "id": 24842,
+      "value": "110",
+      "description": null,
+      "image": null,
+      "product_property_id": 1080
+    },
+    {
+      "id": 24843,
+      "value": "35",
+      "description": null,
+      "image": null,
+      "product_property_id": 1081
+    },
+    {
+      "id": 24844,
+      "value": "42",
+      "description": null,
+      "image": null,
+      "product_property_id": 1081
+    },
+    {
+      "id": 24845,
+      "value": "48",
+      "description": null,
+      "image": null,
+      "product_property_id": 1081
+    },
+    {
+      "id": 24846,
+      "value": "55",
+      "description": null,
+      "image": null,
+      "product_property_id": 1081
+    },
+    {
+      "id": 24847,
+      "value": "A+++",
+      "description": null,
+      "image": null,
+      "product_property_id": 1082
+    },
+    {
+      "id": 24848,
+      "value": "A++",
+      "description": null,
+      "image": null,
+      "product_property_id": 1082
+    },
+    {
+      "id": 24849,
+      "value": "A+",
+      "description": null,
+      "image": null,
+      "product_property_id": 1082
+    },
+    {
+      "id": 24850,
+      "value": "230V",
+      "description": null,
+      "image": null,
+      "product_property_id": 1083
+    },
+    {
+      "id": 24851,
+      "value": "400V",
+      "description": null,
+      "image": null,
+      "product_property_id": 1083
+    },
+    {
+      "id": 24852,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 1084
+    },
+    {
+      "id": 24853,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 1084
+    },
+    {
+      "id": 24854,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1085
+    },
+    {
+      "id": 24855,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1085
+    },
+    {
+      "id": 24856,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1085
+    },
+    {
+      "id": 28911,
+      "value": "vmc",
+      "description": null,
+      "image": null,
+      "product_property_id": 1287
+    },
+    {
+      "id": 28912,
+      "value": "turning",
+      "description": null,
+      "image": null,
+      "product_property_id": 1287
+    },
+    {
+      "id": 28913,
+      "value": "mill-turn",
+      "description": null,
+      "image": null,
+      "product_property_id": 1287
+    },
+    {
+      "id": 28914,
+      "value": "small",
+      "description": null,
+      "image": null,
+      "product_property_id": 1288
+    },
+    {
+      "id": 28915,
+      "value": "medium",
+      "description": null,
+      "image": null,
+      "product_property_id": 1288
+    },
+    {
+      "id": 28916,
+      "value": "large",
+      "description": null,
+      "image": null,
+      "product_property_id": 1288
+    },
+    {
+      "id": 28917,
+      "value": "400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28918,
+      "value": "600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28919,
+      "value": "800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28920,
+      "value": "1000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28921,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28922,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1289
+    },
+    {
+      "id": 28923,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "product_property_id": 1290
+    },
+    {
+      "id": 28924,
+      "value": "400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1290
+    },
+    {
+      "id": 28925,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1290
+    },
+    {
+      "id": 28926,
+      "value": "600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1290
+    },
+    {
+      "id": 28927,
+      "value": "800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1290
+    },
+    {
+      "id": 28928,
+      "value": "300",
+      "description": null,
+      "image": null,
+      "product_property_id": 1291
+    },
+    {
+      "id": 28929,
+      "value": "400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1291
+    },
+    {
+      "id": 28930,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1291
+    },
+    {
+      "id": 28931,
+      "value": "600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1291
+    },
+    {
+      "id": 28932,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 1292
+    },
+    {
+      "id": 28933,
+      "value": "torque",
+      "description": null,
+      "image": null,
+      "product_property_id": 1292
+    },
+    {
+      "id": 28934,
+      "value": "speed",
+      "description": null,
+      "image": null,
+      "product_property_id": 1292
+    },
+    {
+      "id": 28935,
+      "value": "true",
+      "description": null,
+      "image": null,
+      "product_property_id": 1293
+    },
+    {
+      "id": 28936,
+      "value": "false",
+      "description": null,
+      "image": null,
+      "product_property_id": 1293
+    },
+    {
+      "id": 28937,
+      "value": "turning",
+      "description": null,
+      "image": null,
+      "product_property_id": 1294
+    },
+    {
+      "id": 28938,
+      "value": "3axis",
+      "description": null,
+      "image": null,
+      "product_property_id": 1294
+    },
+    {
+      "id": 28939,
+      "value": "5axis",
+      "description": null,
+      "image": null,
+      "product_property_id": 1294
+    },
+    {
+      "id": 28940,
+      "value": "millturn",
+      "description": null,
+      "image": null,
+      "product_property_id": 1294
+    },
+    {
+      "id": 28941,
+      "value": "aluminium",
+      "description": null,
+      "image": null,
+      "product_property_id": 1295
+    },
+    {
+      "id": 28942,
+      "value": "mild",
+      "description": null,
+      "image": null,
+      "product_property_id": 1295
+    },
+    {
+      "id": 28943,
+      "value": "stainless",
+      "description": null,
+      "image": null,
+      "product_property_id": 1295
+    },
+    {
+      "id": 28944,
+      "value": "hardened",
+      "description": null,
+      "image": null,
+      "product_property_id": 1295
+    },
+    {
+      "id": 28945,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1296
+    },
+    {
+      "id": 28946,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1296
+    },
+    {
+      "id": 28947,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1296
+    },
+    {
+      "id": 28948,
+      "value": "food",
+      "description": null,
+      "image": null,
+      "product_property_id": 1297
+    },
+    {
+      "id": 28949,
+      "value": "logistics",
+      "description": null,
+      "image": null,
+      "product_property_id": 1297
+    },
+    {
+      "id": 28950,
+      "value": "packaging",
+      "description": null,
+      "image": null,
+      "product_property_id": 1297
+    },
+    {
+      "id": 28951,
+      "value": "automotive",
+      "description": null,
+      "image": null,
+      "product_property_id": 1297
+    },
+    {
+      "id": 28952,
+      "value": "dry",
+      "description": null,
+      "image": null,
+      "product_property_id": 1298
+    },
+    {
+      "id": 28953,
+      "value": "washdown",
+      "description": null,
+      "image": null,
+      "product_property_id": 1298
+    },
+    {
+      "id": 28954,
+      "value": "belt",
+      "description": null,
+      "image": null,
+      "product_property_id": 1299
+    },
+    {
+      "id": 28955,
+      "value": "roller",
+      "description": null,
+      "image": null,
+      "product_property_id": 1299
+    },
+    {
+      "id": 28956,
+      "value": "modular-plastic",
+      "description": null,
+      "image": null,
+      "product_property_id": 1299
+    },
+    {
+      "id": 28957,
+      "value": "light",
+      "description": null,
+      "image": null,
+      "product_property_id": 1300
+    },
+    {
+      "id": 28958,
+      "value": "medium",
+      "description": null,
+      "image": null,
+      "product_property_id": 1300
+    },
+    {
+      "id": 28959,
+      "value": "heavy",
+      "description": null,
+      "image": null,
+      "product_property_id": 1300
+    },
+    {
+      "id": 28960,
+      "value": "low",
+      "description": null,
+      "image": null,
+      "product_property_id": 1301
+    },
+    {
+      "id": 28961,
+      "value": "mid",
+      "description": null,
+      "image": null,
+      "product_property_id": 1301
+    },
+    {
+      "id": 28962,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 1301
+    },
+    {
+      "id": 28963,
+      "value": "flat",
+      "description": null,
+      "image": null,
+      "product_property_id": 1302
+    },
+    {
+      "id": 28964,
+      "value": "mild",
+      "description": null,
+      "image": null,
+      "product_property_id": 1302
+    },
+    {
+      "id": 28965,
+      "value": "steep",
+      "description": null,
+      "image": null,
+      "product_property_id": 1302
+    },
+    {
+      "id": 28966,
+      "value": "pu",
+      "description": null,
+      "image": null,
+      "product_property_id": 1303
+    },
+    {
+      "id": 28967,
+      "value": "pvc",
+      "description": null,
+      "image": null,
+      "product_property_id": 1303
+    },
+    {
+      "id": 28968,
+      "value": "modular",
+      "description": null,
+      "image": null,
+      "product_property_id": 1303
+    },
+    {
+      "id": 28969,
+      "value": "gravity-roller",
+      "description": null,
+      "image": null,
+      "product_property_id": 1303
+    },
+    {
+      "id": 28970,
+      "value": "powered-roller",
+      "description": null,
+      "image": null,
+      "product_property_id": 1303
+    },
+    {
+      "id": 28971,
+      "value": "end-drive",
+      "description": null,
+      "image": null,
+      "product_property_id": 1304
+    },
+    {
+      "id": 28972,
+      "value": "center",
+      "description": null,
+      "image": null,
+      "product_property_id": 1304
+    },
+    {
+      "id": 28973,
+      "value": "drum",
+      "description": null,
+      "image": null,
+      "product_property_id": 1304
+    },
+    {
+      "id": 28974,
+      "value": "none",
+      "description": null,
+      "image": null,
+      "product_property_id": 1304
+    },
+    {
+      "id": 28975,
+      "value": "module",
+      "description": null,
+      "image": null,
+      "product_property_id": 1305
+    },
+    {
+      "id": 28976,
+      "value": "drive",
+      "description": null,
+      "image": null,
+      "product_property_id": 1305
+    },
+    {
+      "id": 28977,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1305
+    },
+    {
+      "id": 28978,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1305
+    },
+    {
+      "id": 28979,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 1306
+    },
+    {
+      "id": 28980,
+      "value": "food-grade",
+      "description": null,
+      "image": null,
+      "product_property_id": 1306
+    },
+    {
+      "id": 28981,
+      "value": "washdown-ip",
+      "description": null,
+      "image": null,
+      "product_property_id": 1306
+    },
+    {
+      "id": 28982,
+      "value": "ffs",
+      "description": null,
+      "image": null,
+      "product_property_id": 1307
+    },
+    {
+      "id": 28983,
+      "value": "flow-wrap",
+      "description": null,
+      "image": null,
+      "product_property_id": 1307
+    },
+    {
+      "id": 28984,
+      "value": "tray-sealer",
+      "description": null,
+      "image": null,
+      "product_property_id": 1307
+    },
+    {
+      "id": 28985,
+      "value": "wraparound",
+      "description": null,
+      "image": null,
+      "product_property_id": 1307
+    },
+    {
+      "id": 28986,
+      "value": "food-dry",
+      "description": null,
+      "image": null,
+      "product_property_id": 1308
+    },
+    {
+      "id": 28987,
+      "value": "washdown",
+      "description": null,
+      "image": null,
+      "product_property_id": 1308
+    },
+    {
+      "id": 28988,
+      "value": "pharma",
+      "description": null,
+      "image": null,
+      "product_property_id": 1308
+    },
+    {
+      "id": 28989,
+      "value": "cpg",
+      "description": null,
+      "image": null,
+      "product_property_id": 1308
+    },
+    {
+      "id": 28990,
+      "value": "pouch",
+      "description": null,
+      "image": null,
+      "product_property_id": 1309
+    },
+    {
+      "id": 28991,
+      "value": "tray",
+      "description": null,
+      "image": null,
+      "product_property_id": 1309
+    },
+    {
+      "id": 28992,
+      "value": "carton",
+      "description": null,
+      "image": null,
+      "product_property_id": 1309
+    },
+    {
+      "id": 28993,
+      "value": "flow-bag",
+      "description": null,
+      "image": null,
+      "product_property_id": 1309
+    },
+    {
+      "id": 28994,
+      "value": "low",
+      "description": null,
+      "image": null,
+      "product_property_id": 1310
+    },
+    {
+      "id": 28995,
+      "value": "mid",
+      "description": null,
+      "image": null,
+      "product_property_id": 1310
+    },
+    {
+      "id": 28996,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 1310
+    },
+    {
+      "id": 28997,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 1311
+    },
+    {
+      "id": 28998,
+      "value": "washdown-ip",
+      "description": null,
+      "image": null,
+      "product_property_id": 1311
+    },
+    {
+      "id": 28999,
+      "value": "pharma",
+      "description": null,
+      "image": null,
+      "product_property_id": 1311
+    },
+    {
+      "id": 29000,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1312
+    },
+    {
+      "id": 29001,
+      "value": "tooling",
+      "description": null,
+      "image": null,
+      "product_property_id": 1312
+    },
+    {
+      "id": 29002,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1312
+    },
+    {
+      "id": 29003,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1312
+    },
+    {
+      "id": 29004,
+      "value": "end-suction",
+      "description": null,
+      "image": null,
+      "product_property_id": 1313
+    },
+    {
+      "id": 29005,
+      "value": "multistage",
+      "description": null,
+      "image": null,
+      "product_property_id": 1313
+    },
+    {
+      "id": 29006,
+      "value": "pd",
+      "description": null,
+      "image": null,
+      "product_property_id": 1313
+    },
+    {
+      "id": 29007,
+      "value": "water",
+      "description": null,
+      "image": null,
+      "product_property_id": 1314
+    },
+    {
+      "id": 29008,
+      "value": "chemical",
+      "description": null,
+      "image": null,
+      "product_property_id": 1314
+    },
+    {
+      "id": 29009,
+      "value": "oil",
+      "description": null,
+      "image": null,
+      "product_property_id": 1314
+    },
+    {
+      "id": 29010,
+      "value": "slurry",
+      "description": null,
+      "image": null,
+      "product_property_id": 1314
+    },
+    {
+      "id": 29011,
+      "value": "low",
+      "description": null,
+      "image": null,
+      "product_property_id": 1315
+    },
+    {
+      "id": 29012,
+      "value": "mid",
+      "description": null,
+      "image": null,
+      "product_property_id": 1315
+    },
+    {
+      "id": 29013,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 1315
+    },
+    {
+      "id": 29014,
+      "value": "low",
+      "description": null,
+      "image": null,
+      "product_property_id": 1316
+    },
+    {
+      "id": 29015,
+      "value": "mid",
+      "description": null,
+      "image": null,
+      "product_property_id": 1316
+    },
+    {
+      "id": 29016,
+      "value": "high",
+      "description": null,
+      "image": null,
+      "product_property_id": 1316
+    },
+    {
+      "id": 29017,
+      "value": "single",
+      "description": null,
+      "image": null,
+      "product_property_id": 1317
+    },
+    {
+      "id": 29018,
+      "value": "double",
+      "description": null,
+      "image": null,
+      "product_property_id": 1317
+    },
+    {
+      "id": 29019,
+      "value": "cartridge",
+      "description": null,
+      "image": null,
+      "product_property_id": 1317
+    },
+    {
+      "id": 29020,
+      "value": "hard-face",
+      "description": null,
+      "image": null,
+      "product_property_id": 1317
+    },
+    {
+      "id": 29021,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1318
+    },
+    {
+      "id": 29022,
+      "value": "seal",
+      "description": null,
+      "image": null,
+      "product_property_id": 1318
+    },
+    {
+      "id": 29023,
+      "value": "motor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1318
+    },
+    {
+      "id": 29024,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1318
+    },
+    {
+      "id": 29025,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1318
+    },
+    {
+      "id": 29037,
+      "value": "water",
+      "description": null,
+      "image": null,
+      "product_property_id": 1322
+    },
+    {
+      "id": 29038,
+      "value": "food",
+      "description": null,
+      "image": null,
+      "product_property_id": 1322
+    },
+    {
+      "id": 29039,
+      "value": "chemical",
+      "description": null,
+      "image": null,
+      "product_property_id": 1322
+    },
+    {
+      "id": 29040,
+      "value": "dry-bulk",
+      "description": null,
+      "image": null,
+      "product_property_id": 1322
+    },
+    {
+      "id": 29041,
+      "value": "cs",
+      "description": null,
+      "image": null,
+      "product_property_id": 1323
+    },
+    {
+      "id": 29042,
+      "value": "ss304",
+      "description": null,
+      "image": null,
+      "product_property_id": 1323
+    },
+    {
+      "id": 29043,
+      "value": "ss316",
+      "description": null,
+      "image": null,
+      "product_property_id": 1323
+    },
+    {
+      "id": 29044,
+      "value": "small",
+      "description": null,
+      "image": null,
+      "product_property_id": 1324
+    },
+    {
+      "id": 29045,
+      "value": "mid",
+      "description": null,
+      "image": null,
+      "product_property_id": 1324
+    },
+    {
+      "id": 29046,
+      "value": "large",
+      "description": null,
+      "image": null,
+      "product_property_id": 1324
+    },
+    {
+      "id": 29047,
+      "value": "xl",
+      "description": null,
+      "image": null,
+      "product_property_id": 1324
+    },
+    {
+      "id": 29048,
+      "value": "compact",
+      "description": null,
+      "image": null,
+      "product_property_id": 1325
+    },
+    {
+      "id": 29049,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 1325
+    },
+    {
+      "id": 29050,
+      "value": "oversize",
+      "description": null,
+      "image": null,
+      "product_property_id": 1325
+    },
+    {
+      "id": 29051,
+      "value": "special",
+      "description": null,
+      "image": null,
+      "product_property_id": 1325
+    },
+    {
+      "id": 29052,
+      "value": "road",
+      "description": null,
+      "image": null,
+      "product_property_id": 1326
+    },
+    {
+      "id": 29053,
+      "value": "oversize",
+      "description": null,
+      "image": null,
+      "product_property_id": 1326
+    },
+    {
+      "id": 29054,
+      "value": "special",
+      "description": null,
+      "image": null,
+      "product_property_id": 1326
+    },
+    {
+      "id": 29055,
+      "value": "vessel",
+      "description": null,
+      "image": null,
+      "product_property_id": 1327
+    },
+    {
+      "id": 29056,
+      "value": "nozzle",
+      "description": null,
+      "image": null,
+      "product_property_id": 1327
+    },
+    {
+      "id": 29057,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1327
+    },
+    {
+      "id": 29058,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1327
+    },
+    {
+      "id": 29059,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1327
+    },
+    {
+      "id": 29061,
+      "value": "pump",
+      "description": null,
+      "image": null,
+      "product_property_id": 1328
+    },
+    {
+      "id": 29062,
+      "value": "conveyor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1328
+    },
+    {
+      "id": 29063,
+      "value": "hvac",
+      "description": null,
+      "image": null,
+      "product_property_id": 1328
+    },
+    {
+      "id": 29064,
+      "value": "machine",
+      "description": null,
+      "image": null,
+      "product_property_id": 1328
+    },
+    {
+      "id": 29065,
+      "value": "800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1329
+    },
+    {
+      "id": 29066,
+      "value": "1000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1329
+    },
+    {
+      "id": 29067,
+      "value": "1200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1329
+    },
+    {
+      "id": 29068,
+      "value": "1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1330
+    },
+    {
+      "id": 29069,
+      "value": "2",
+      "description": null,
+      "image": null,
+      "product_property_id": 1330
+    },
+    {
+      "id": 29070,
+      "value": "3",
+      "description": null,
+      "image": null,
+      "product_property_id": 1330
+    },
+    {
+      "id": 29071,
+      "value": "400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1331
+    },
+    {
+      "id": 29072,
+      "value": "230",
+      "description": null,
+      "image": null,
+      "product_property_id": 1331
+    },
+    {
+      "id": 29073,
+      "value": "indoor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1332
+    },
+    {
+      "id": 29074,
+      "value": "outdoor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1332
+    },
+    {
+      "id": 29075,
+      "value": "enclosure",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29076,
+      "value": "drive",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29077,
+      "value": "power",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29078,
+      "value": "protection",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29079,
+      "value": "cooling",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29080,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29081,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1333
+    },
+    {
+      "id": 29083,
+      "value": "700",
+      "description": null,
+      "image": null,
+      "product_property_id": 1334
+    },
+    {
+      "id": 29084,
+      "value": "900",
+      "description": null,
+      "image": null,
+      "product_property_id": 1334
+    },
+    {
+      "id": 29085,
+      "value": "1200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1334
+    },
+    {
+      "id": 29086,
+      "value": "b2400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1335
+    },
+    {
+      "id": 29087,
+      "value": "b3000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1335
+    },
+    {
+      "id": 29088,
+      "value": "f1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1336
+    },
+    {
+      "id": 29089,
+      "value": "f2",
+      "description": null,
+      "image": null,
+      "product_property_id": 1336
+    },
+    {
+      "id": 29090,
+      "value": "3",
+      "description": null,
+      "image": null,
+      "product_property_id": 1337
+    },
+    {
+      "id": 29091,
+      "value": "4",
+      "description": null,
+      "image": null,
+      "product_property_id": 1337
+    },
+    {
+      "id": 29092,
+      "value": "5",
+      "description": null,
+      "image": null,
+      "product_property_id": 1337
+    },
+    {
+      "id": 29093,
+      "value": "standard",
+      "description": null,
+      "image": null,
+      "product_property_id": 1338
+    },
+    {
+      "id": 29094,
+      "value": "seismic",
+      "description": null,
+      "image": null,
+      "product_property_id": 1338
+    },
+    {
+      "id": 29095,
+      "value": "beam",
+      "description": null,
+      "image": null,
+      "product_property_id": 1339
+    },
+    {
+      "id": 29096,
+      "value": "frame",
+      "description": null,
+      "image": null,
+      "product_property_id": 1339
+    },
+    {
+      "id": 29097,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1339
+    },
+    {
+      "id": 29098,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1339
+    },
+    {
+      "id": 29099,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1339
+    },
+    {
+      "id": 29100,
+      "value": "wood",
+      "description": null,
+      "image": null,
+      "product_property_id": 1340
+    },
+    {
+      "id": 29101,
+      "value": "metal",
+      "description": null,
+      "image": null,
+      "product_property_id": 1340
+    },
+    {
+      "id": 29102,
+      "value": "mineral",
+      "description": null,
+      "image": null,
+      "product_property_id": 1340
+    },
+    {
+      "id": 29103,
+      "value": "powder",
+      "description": null,
+      "image": null,
+      "product_property_id": 1340
+    },
+    {
+      "id": 29104,
+      "value": "dc6",
+      "description": null,
+      "image": null,
+      "product_property_id": 1341
+    },
+    {
+      "id": 29105,
+      "value": "dc10",
+      "description": null,
+      "image": null,
+      "product_property_id": 1341
+    },
+    {
+      "id": 29106,
+      "value": "f2",
+      "description": null,
+      "image": null,
+      "product_property_id": 1342
+    },
+    {
+      "id": 29107,
+      "value": "f3",
+      "description": null,
+      "image": null,
+      "product_property_id": 1342
+    },
+    {
+      "id": 29108,
+      "value": "small",
+      "description": null,
+      "image": null,
+      "product_property_id": 1343
+    },
+    {
+      "id": 29109,
+      "value": "balanced",
+      "description": null,
+      "image": null,
+      "product_property_id": 1343
+    },
+    {
+      "id": 29110,
+      "value": "large",
+      "description": null,
+      "image": null,
+      "product_property_id": 1343
+    },
+    {
+      "id": 29111,
+      "value": "collector",
+      "description": null,
+      "image": null,
+      "product_property_id": 1344
+    },
+    {
+      "id": 29112,
+      "value": "fan",
+      "description": null,
+      "image": null,
+      "product_property_id": 1344
+    },
+    {
+      "id": 29113,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1344
+    },
+    {
+      "id": 29114,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1344
+    },
+    {
+      "id": 29115,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1344
+    },
+    {
+      "id": 29116,
+      "value": "12",
+      "description": null,
+      "image": null,
+      "product_property_id": 1345
+    },
+    {
+      "id": 29117,
+      "value": "20",
+      "description": null,
+      "image": null,
+      "product_property_id": 1345
+    },
+    {
+      "id": 29118,
+      "value": "28",
+      "description": null,
+      "image": null,
+      "product_property_id": 1345
+    },
+    {
+      "id": 29119,
+      "value": "m12",
+      "description": null,
+      "image": null,
+      "product_property_id": 1346
+    },
+    {
+      "id": 29120,
+      "value": "m16",
+      "description": null,
+      "image": null,
+      "product_property_id": 1346
+    },
+    {
+      "id": 29121,
+      "value": "p20",
+      "description": null,
+      "image": null,
+      "product_property_id": 1347
+    },
+    {
+      "id": 29122,
+      "value": "p30",
+      "description": null,
+      "image": null,
+      "product_property_id": 1347
+    },
+    {
+      "id": 29123,
+      "value": "single",
+      "description": null,
+      "image": null,
+      "product_property_id": 1348
+    },
+    {
+      "id": 29124,
+      "value": "dual",
+      "description": null,
+      "image": null,
+      "product_property_id": 1348
+    },
+    {
+      "id": 29125,
+      "value": "membrane",
+      "description": null,
+      "image": null,
+      "product_property_id": 1349
+    },
+    {
+      "id": 29126,
+      "value": "pump",
+      "description": null,
+      "image": null,
+      "product_property_id": 1349
+    },
+    {
+      "id": 29127,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1349
+    },
+    {
+      "id": 29128,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1349
+    },
+    {
+      "id": 29129,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1349
+    },
+    {
+      "id": 29130,
+      "value": "blend",
+      "description": null,
+      "image": null,
+      "product_property_id": 1350
+    },
+    {
+      "id": 29131,
+      "value": "suspend",
+      "description": null,
+      "image": null,
+      "product_property_id": 1350
+    },
+    {
+      "id": 29132,
+      "value": "heat",
+      "description": null,
+      "image": null,
+      "product_property_id": 1350
+    },
+    {
+      "id": 29133,
+      "value": "shear",
+      "description": null,
+      "image": null,
+      "product_property_id": 1350
+    },
+    {
+      "id": 29134,
+      "value": "100",
+      "description": null,
+      "image": null,
+      "product_property_id": 1351
+    },
+    {
+      "id": 29135,
+      "value": "500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1351
+    },
+    {
+      "id": 29136,
+      "value": "5000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1351
+    },
+    {
+      "id": 29137,
+      "value": "hydro",
+      "description": null,
+      "image": null,
+      "product_property_id": 1352
+    },
+    {
+      "id": 29138,
+      "value": "pbt",
+      "description": null,
+      "image": null,
+      "product_property_id": 1352
+    },
+    {
+      "id": 29139,
+      "value": "anchor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1352
+    },
+    {
+      "id": 29140,
+      "value": "hs",
+      "description": null,
+      "image": null,
+      "product_property_id": 1352
+    },
+    {
+      "id": 29141,
+      "value": "m7_5",
+      "description": null,
+      "image": null,
+      "product_property_id": 1353
+    },
+    {
+      "id": 29142,
+      "value": "m11",
+      "description": null,
+      "image": null,
+      "product_property_id": 1353
+    },
+    {
+      "id": 29143,
+      "value": "s40",
+      "description": null,
+      "image": null,
+      "product_property_id": 1354
+    },
+    {
+      "id": 29144,
+      "value": "s60",
+      "description": null,
+      "image": null,
+      "product_property_id": 1354
+    },
+    {
+      "id": 29145,
+      "value": "impeller",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29146,
+      "value": "motor",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29147,
+      "value": "shaft",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29148,
+      "value": "seal",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29149,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29150,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1355
+    },
+    {
+      "id": 29187,
+      "value": "D-100",
+      "description": null,
+      "image": null,
+      "product_property_id": 1368
+    },
+    {
+      "id": 29188,
+      "value": "D-200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1368
+    },
+    {
+      "id": 29189,
+      "value": "Aluminio",
+      "description": null,
+      "image": null,
+      "product_property_id": 1369
+    },
+    {
+      "id": 29190,
+      "value": "Aluminio plus",
+      "description": null,
+      "image": null,
+      "product_property_id": 1369
+    },
+    {
+      "id": 29191,
+      "value": "Acero",
+      "description": null,
+      "image": null,
+      "product_property_id": 1369
+    },
+    {
+      "id": 29192,
+      "value": "Melamina",
+      "description": null,
+      "image": null,
+      "product_property_id": 1370
+    },
+    {
+      "id": 29193,
+      "value": "HPL",
+      "description": null,
+      "image": null,
+      "product_property_id": 1370
+    },
+    {
+      "id": 29194,
+      "value": "Tejido",
+      "description": null,
+      "image": null,
+      "product_property_id": 1370
+    },
+    {
+      "id": 29195,
+      "value": "Templado",
+      "description": null,
+      "image": null,
+      "product_property_id": 1371
+    },
+    {
+      "id": 29196,
+      "value": "Laminado",
+      "description": null,
+      "image": null,
+      "product_property_id": 1371
+    },
+    {
+      "id": 29197,
+      "value": "Acustico",
+      "description": null,
+      "image": null,
+      "product_property_id": 1371
+    },
+    {
+      "id": 29198,
+      "value": "Blanco",
+      "description": null,
+      "image": null,
+      "product_property_id": 1372
+    },
+    {
+      "id": 29199,
+      "value": "Antracita",
+      "description": null,
+      "image": null,
+      "product_property_id": 1372
+    },
+    {
+      "id": 29200,
+      "value": "Roble",
+      "description": null,
+      "image": null,
+      "product_property_id": 1372
+    },
+    {
+      "id": 29201,
+      "value": "RAL",
+      "description": null,
+      "image": null,
+      "product_property_id": 1372
+    },
+    {
+      "id": 29226,
+      "value": "Steel",
+      "description": "Hot-dip galvanised steel. The most robust and cost-effective choice for heavy daily use and rough job sites.",
+      "image": "8ec0706e1bec78fc74b8434c1b8bd88f486e32c0e724adc2e036143178f9f692.png",
+      "translation": {
+        "da_value": "Stål",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1378
+    },
+    {
+      "id": 29227,
+      "value": "Aluminium",
+      "description": "Lightweight marine-grade aluminium. Saves up to 30% weight for more payload and better fuel economy – and it never rusts.",
+      "image": "262fa30fcc0ff84747aa29819314a2aee815aa2d7727298eee8bab1d1a186813.png",
+      "translation": {
+        "da_value": "Aluminium",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1378
+    },
+    {
+      "id": 29228,
+      "value": "Composite",
+      "description": "Fibre-reinforced composite panels. The lightest option with excellent insulation – ideal for refrigerated and premium builds.",
+      "image": "8984c5cdcc152c053dc0ad072ead638f8e4d998fbe7769cd8fc56813d93bad60.png",
+      "translation": {
+        "da_value": "Komposit",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1378
+    },
+    {
+      "id": 29229,
+      "value": "Arctic White Gloss",
+      "description": "Classic high-gloss fleet white. Easy to brand and keeps the cab cool in sunny climates.",
+      "image": "30465124263a0477e372f80f38dcf2e840192439288326bb71656ffe151990fd.png",
+      "translation": {
+        "da_value": "Arktisk hvid blank",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1379
+    },
+    {
+      "id": 29230,
+      "value": "Graphite Metallic",
+      "description": "Deep grey with metallic flake. Hides road dirt well and gives a premium look.",
+      "image": "8c76ea39d1b9758b2804cb5b45818c57db3c92e2305d55e63bb4d08f9b44a95f.png",
+      "translation": {
+        "da_value": "Grafit metallic",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1379
+    },
+    {
+      "id": 29231,
+      "value": "Matte Black",
+      "description": "Satin-matte black for a bold, modern look. Requires matte-safe washing.",
+      "image": "3ad88e19a65541fab4c303222af87e759108f0293add84eb6e1cc11c14f63abd.png",
+      "translation": {
+        "da_value": "Mat sort",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1379
+    },
+    {
+      "id": 29232,
+      "value": "Signal Red",
+      "description": "High-visibility red gloss – a strong brand colour that stands out on the road.",
+      "image": "169c3e29c8726878e2ce536ea16060e2c29650408d53d5d1a94780d40fdbb953.png",
+      "translation": {
+        "da_value": "Signalrød",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1379
+    },
+    {
+      "id": 29233,
+      "value": "Fabric",
+      "description": "Breathable, hard-wearing woven fabric. Comfortable in all seasons.",
+      "image": "feacce11c957e4b1bb4169d89760574ace36c953f6d105701cfba779f50c9815.png",
+      "translation": {
+        "da_value": "Stof",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1380
+    },
+    {
+      "id": 29234,
+      "value": "Vinyl",
+      "description": "Wipe-clean, water-resistant vinyl. Built for dusty or wet working environments.",
+      "image": "c2c31bbe42e67ad92b18e766a8199ebe58b92bb3e97987283b42875b53eedbb6.png",
+      "translation": {
+        "da_value": "Vinyl",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1380
+    },
+    {
+      "id": 29235,
+      "value": "Leather",
+      "description": "Premium Nappa leather with diamond stitching – the most comfortable cabin for long-haul drivers.",
+      "image": "ae98084d14e681b7446dba18da4ed4dbd7a5118641e5039a6b1c24b3898da04e.png",
+      "translation": {
+        "da_value": "Læder",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1380
+    },
+    {
+      "id": 29236,
+      "value": "Bed",
+      "description": "Cargo beds and bed extensions.",
+      "image": null,
+      "translation": {
+        "da_value": "Lad",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1381
+    },
+    {
+      "id": 29237,
+      "value": "Exterior",
+      "description": "Exterior and functional add-on packages.",
+      "image": null,
+      "translation": {
+        "da_value": "Eksteriør",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1381
+    },
+    {
+      "id": 29238,
+      "value": "Interior",
+      "description": "Cabin interior packages.",
+      "image": null,
+      "translation": {
+        "da_value": "Interiør",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1381
+    },
+    {
+      "id": 29239,
+      "value": "Technology",
+      "description": "Infotainment and driver-assistance packages.",
+      "image": null,
+      "translation": {
+        "da_value": "Teknologi",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1381
+    },
+    {
+      "id": 29240,
+      "value": "Cab",
+      "description": "Cab variants for the truck chassis.",
+      "image": null,
+      "translation": {
+        "da_value": "Førerhus",
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1381
+    },
+    {
+      "id": 29591,
+      "value": "7500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29592,
+      "value": "8200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29593,
+      "value": "9000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29594,
+      "value": "9800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29595,
+      "value": "320",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29596,
+      "value": "450",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29597,
+      "value": "620",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29598,
+      "value": "1800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29599,
+      "value": "600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29600,
+      "value": "1100",
+      "description": null,
+      "image": null,
+      "product_property_id": 1405
+    },
+    {
+      "id": 29601,
+      "value": "50000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1406
+    },
+    {
+      "id": 29602,
+      "value": "60000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1406
+    },
+    {
+      "id": 29603,
+      "value": "120000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1406
+    },
+    {
+      "id": 29604,
+      "value": "200000",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1406
+    },
+    {
+      "id": 29605,
+      "value": "1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1407
+    },
+    {
+      "id": 29606,
+      "value": "2",
+      "description": null,
+      "image": null,
+      "product_property_id": 1407
+    },
+    {
+      "id": 29626,
+      "value": "Model",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29627,
+      "value": "Engine",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29628,
+      "value": "Drivetrain",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29629,
+      "value": "Transmission",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29630,
+      "value": "Bed",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29631,
+      "value": "Cab",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29632,
+      "value": "Exterior",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29633,
+      "value": "Feature",
+      "description": null,
+      "image": null,
+      "product_property_id": 1409
+    },
+    {
+      "id": 29634,
+      "value": "Distribution",
+      "description": null,
+      "image": null,
+      "product_property_id": 1410
+    },
+    {
+      "id": 29635,
+      "value": "Construction",
+      "description": null,
+      "image": null,
+      "product_property_id": 1410
+    },
+    {
+      "id": 29636,
+      "value": "Long haul",
+      "description": null,
+      "image": null,
+      "product_property_id": 1410
+    },
+    {
+      "id": 29637,
+      "value": "Municipal",
+      "description": null,
+      "image": null,
+      "product_property_id": 1410
+    },
+    {
+      "id": 29638,
+      "value": "Paved",
+      "description": null,
+      "image": null,
+      "product_property_id": 1411
+    },
+    {
+      "id": 29639,
+      "value": "Mixed",
+      "description": null,
+      "image": null,
+      "product_property_id": 1411
+    },
+    {
+      "id": 29640,
+      "value": "Off-road",
+      "description": null,
+      "image": null,
+      "product_property_id": 1411
+    },
+    {
+      "id": 29641,
+      "value": "None",
+      "description": null,
+      "image": null,
+      "product_property_id": 1412
+    },
+    {
+      "id": 29642,
+      "value": "Euro 6",
+      "description": null,
+      "image": null,
+      "product_property_id": 1412
+    },
+    {
+      "id": 29643,
+      "value": "Zero emission",
+      "description": null,
+      "image": null,
+      "product_property_id": 1412
+    },
+    {
+      "id": 29644,
+      "value": "4000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29645,
+      "value": "6000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29646,
+      "value": "8000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29647,
+      "value": "9000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29648,
+      "value": "14000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29649,
+      "value": "16000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1413
+    },
+    {
+      "id": 29650,
+      "value": "10",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1414
+    },
+    {
+      "id": 29651,
+      "value": "12",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1414
+    },
+    {
+      "id": 29652,
+      "value": "16",
+      "description": null,
+      "image": null,
+      "translation": {
+        "da_value": null,
+        "de_value": null,
+        "es_value": null,
+        "no_value": null,
+        "da_description": null,
+        "de_description": null,
+        "es_description": null,
+        "no_description": null
+      },
+      "product_property_id": 1414
+    },
+    {
+      "id": 29653,
+      "value": "2400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1415
+    },
+    {
+      "id": 29654,
+      "value": "3600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1415
+    },
+    {
+      "id": 29655,
+      "value": "7200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1415
+    },
+    {
+      "id": 29656,
+      "value": "0",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29657,
+      "value": "80",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29658,
+      "value": "125",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29659,
+      "value": "330",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29660,
+      "value": "350",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29661,
+      "value": "400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29662,
+      "value": "540",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29663,
+      "value": "750",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29664,
+      "value": "1200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29665,
+      "value": "1500",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29666,
+      "value": "2000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29667,
+      "value": "3600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29668,
+      "value": "4000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29669,
+      "value": "4400",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29670,
+      "value": "34000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29671,
+      "value": "42000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29672,
+      "value": "53000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29673,
+      "value": "55000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29674,
+      "value": "56000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29675,
+      "value": "60000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29676,
+      "value": "65000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29677,
+      "value": "66000",
+      "description": null,
+      "image": null,
+      "product_property_id": 1416
+    },
+    {
+      "id": 29678,
+      "value": "1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1417
+    },
+    {
+      "id": 29679,
+      "value": "1",
+      "description": null,
+      "image": null,
+      "product_property_id": 1418
+    },
+    {
+      "id": 29680,
+      "value": "0",
+      "description": null,
+      "image": null,
+      "product_property_id": 1418
+    },
+    {
+      "id": 31793,
+      "value": "2800",
+      "description": null,
+      "image": null,
+      "product_property_id": 1489
+    },
+    {
+      "id": 31794,
+      "value": "3200",
+      "description": null,
+      "image": null,
+      "product_property_id": 1489
+    },
+    {
+      "id": 31795,
+      "value": "3600",
+      "description": null,
+      "image": null,
+      "product_property_id": 1489
+    },
+    {
+      "id": 31796,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1490
+    },
+    {
+      "id": 31797,
+      "value": "module",
+      "description": null,
+      "image": null,
+      "product_property_id": 1490
+    },
+    {
+      "id": 31798,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1490
+    },
+    {
+      "id": 31799,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1490
+    },
+    {
+      "id": 32329,
+      "value": "f15",
+      "description": null,
+      "image": null,
+      "product_property_id": 1491
+    },
+    {
+      "id": 32330,
+      "value": "f30",
+      "description": null,
+      "image": null,
+      "product_property_id": 1491
+    },
+    {
+      "id": 32331,
+      "value": "f60",
+      "description": null,
+      "image": null,
+      "product_property_id": 1491
+    },
+    {
+      "id": 32332,
+      "value": "e15",
+      "description": null,
+      "image": null,
+      "product_property_id": 1492
+    },
+    {
+      "id": 32333,
+      "value": "e30",
+      "description": null,
+      "image": null,
+      "product_property_id": 1492
+    },
+    {
+      "id": 32334,
+      "value": "equipment",
+      "description": null,
+      "image": null,
+      "product_property_id": 1493
+    },
+    {
+      "id": 32335,
+      "value": "accessory",
+      "description": null,
+      "image": null,
+      "product_property_id": 1493
+    },
+    {
+      "id": 32336,
+      "value": "service",
+      "description": null,
+      "image": null,
+      "product_property_id": 1493
+    },
+    {
+      "id": 32337,
+      "value": "review",
+      "description": null,
+      "image": null,
+      "product_property_id": 1493
+    }
+  ],
+  "media_uploadables": [
+    {
+      "id": 28207,
+      "media_upload_id": 21100,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 2392,
+      "created_at": "2026-09-21 16:11:38",
+      "updated_at": "2026-09-21 16:11:38"
+    },
+    {
+      "id": 28208,
+      "media_upload_id": 21102,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 2926,
+      "created_at": "2026-09-21 16:11:38",
+      "updated_at": "2026-09-21 16:11:38"
+    },
+    {
+      "id": 28209,
+      "media_upload_id": 21101,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 2927,
+      "created_at": "2026-09-21 16:11:38",
+      "updated_at": "2026-09-21 16:11:38"
+    },
+    {
+      "id": 29642,
+      "media_upload_id": 25495,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29226,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29643,
+      "media_upload_id": 25496,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29227,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29644,
+      "media_upload_id": 25497,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29228,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29645,
+      "media_upload_id": 25498,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29229,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29646,
+      "media_upload_id": 25499,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29230,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29647,
+      "media_upload_id": 25500,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29231,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29648,
+      "media_upload_id": 25501,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29232,
+      "created_at": "2026-10-06 14:49:00",
+      "updated_at": "2026-10-06 14:49:00"
+    },
+    {
+      "id": 29649,
+      "media_upload_id": 25502,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29233,
+      "created_at": "2026-10-06 14:49:01",
+      "updated_at": "2026-10-06 14:49:01"
+    },
+    {
+      "id": 29650,
+      "media_upload_id": 25503,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29234,
+      "created_at": "2026-10-06 14:49:01",
+      "updated_at": "2026-10-06 14:49:01"
+    },
+    {
+      "id": 29651,
+      "media_upload_id": 25504,
+      "media_uploadable_type": "App\\Models\\ProductPropertyAttribute",
+      "media_uploadable_id": 29235,
+      "created_at": "2026-10-06 14:49:01",
+      "updated_at": "2026-10-06 14:49:01"
+    }
+  ]
+}

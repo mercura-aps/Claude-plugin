@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# The unminified Mercura form SDK: fetched from Mercura's registry for builds, never published.
+server/vendor/
+
+# Workspace files of this local folder that are not part of the public repository.
+/.cursor/
+/.env*
+/notes.md
+/evals/
+/forms/
+/scripts/
+/docs/.gitkeep

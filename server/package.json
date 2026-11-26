@@ -1,0 +1,30 @@
+{
+  "name": "config-panel-claude-plugin-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server of the Mercura config-panel Claude plugin. Built into one file at plugins/mercura-config-panel/server/index.mjs.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node build.mjs && node --experimental-strip-types test/smoke.ts",
+    "mock": "node --experimental-strip-types test/mock-tenant.ts"
+  },
+  "dependencies": {
+    "@mercura-aps/frontend-form-sdk": "file:vendor/frontend-form-sdk",
+    "@mercura-aps/frontend-schemas": "file:vendor/frontend-schemas",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "@tanstack/query-core": "^5.80.0",
+    "fake-indexeddb": "^6.0.0",
+    "zod": "^4.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}

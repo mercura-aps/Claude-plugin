@@ -1,0 +1,65 @@
+{
+  "name": "mercura-config-panel",
+  "displayName": "Mercura config-panel",
+  "version": "0.1.0",
+  "description": "Work with your Mercura configurators from Claude: configure products, see live prices, create quotes, look up quotes and products, and (for admins) edit configurators safely.",
+  "author": {
+    "name": "Mercura",
+    "url": "https://mercura.io"
+  },
+  "homepage": "https://github.com/mercura-aps/Claude-plugin",
+  "license": "SEE LICENSE IN LICENSE",
+  "icon": "./assets/icon.png",
+  "keywords": [
+    "mercura",
+    "config-panel",
+    "cpq",
+    "configurator",
+    "quote"
+  ],
+  "mcpServers": {
+    "config-panel": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server/index.mjs"
+      ],
+      "env": {
+        "CONFIG_PANEL_HOST": "${user_config.host}",
+        "CONFIG_PANEL_USERNAME": "${user_config.username}",
+        "CONFIG_PANEL_PASSWORD": "${user_config.password}",
+        "CONFIG_PANEL_ALLOW_EDITS": "${user_config.allow_edits}",
+        "CONFIG_PANEL_DATA_DIR": "${CLAUDE_PLUGIN_DATA}"
+      }
+    }
+  },
+  "userConfig": {
+    "host": {
+      "type": "string",
+      "title": "config-panel address",
+      "description": "The address you log in to config-panel at, e.g. acme.config.mercura.io",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "title": "Username or e-mail",
+      "description": "Your config-panel login.",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "title": "Password",
+      "description": "Your config-panel password. Kept in your computer's secure storage (Keychain / Credential Manager), never in a settings file and never shown to Claude.",
+      "sensitive": true,
+      "required": true
+    },
+    "allow_edits": {
+      "type": "boolean",
+      "title": "Allow edits to configurators",
+      "description": "Admins only. When on, Claude can propose changes to configurators and save them after you confirm each one.",
+      "default": false,
+      "required": false
+    }
+  },
+  "repository": "https://github.com/mercura-aps/Claude-plugin"
+}

@@ -1,0 +1,2879 @@
+{
+  "rules": [
+    {
+      "id": 74563,
+      "meta": {
+        "id": 74563,
+        "active": 1,
+        "name": "Sizing · Managed servers = servers on-premises",
+        "description": null,
+        "order": 20,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:17.000000Z",
+        "updated_at": "2026-11-12T11:40:18.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74563,
+        "name": "Sizing · Managed servers = servers on-premises",
+        "description": null,
+        "active": 1,
+        "order": 20,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304784,
+            "type": "set_quantity",
+            "order": 0,
+            "formula_constraint_id": 74563,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172853,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187393,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304784,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624506,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62900,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187393,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187392,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74563,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624505,
+            "type": "boolean",
+            "constant": "true",
+            "form_element_id": null,
+            "form_option_id": null,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187392,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187392,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74563,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624505,
+          "type": "boolean",
+          "constant": "true",
+          "form_element_id": null,
+          "form_option_id": null,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187392,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74564,
+      "meta": {
+        "id": 74564,
+        "active": 1,
+        "name": "Sizing · Per-user services follow the number of users",
+        "description": null,
+        "order": 10,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:40.000000Z",
+        "updated_at": "2026-11-12T11:40:44.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74564,
+        "name": "Sizing · Per-user services follow the number of users",
+        "description": null,
+        "active": 1,
+        "order": 10,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304785,
+            "type": "set_quantity",
+            "order": 0,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172833,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187395,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304785,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624508,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187395,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304786,
+            "type": "set_quantity",
+            "order": 1,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172834,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187396,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304786,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624509,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187396,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304787,
+            "type": "set_quantity",
+            "order": 2,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172835,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187397,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304787,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624510,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187397,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304788,
+            "type": "set_quantity",
+            "order": 3,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172836,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187398,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304788,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624511,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187398,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304789,
+            "type": "set_quantity",
+            "order": 4,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172837,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187399,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304789,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624512,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187399,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304790,
+            "type": "set_quantity",
+            "order": 5,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172838,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187400,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304790,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624513,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187400,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304791,
+            "type": "set_quantity",
+            "order": 6,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172840,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187401,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304791,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624514,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187401,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304792,
+            "type": "set_quantity",
+            "order": 7,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172841,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187402,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304792,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624515,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187402,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304793,
+            "type": "set_quantity",
+            "order": 8,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172842,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187403,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304793,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624516,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187403,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304794,
+            "type": "set_quantity",
+            "order": 9,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172847,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187404,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304794,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624517,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187404,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304795,
+            "type": "set_quantity",
+            "order": 10,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172848,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187405,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304795,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624518,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187405,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304796,
+            "type": "set_quantity",
+            "order": 11,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172849,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187406,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304796,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624519,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187406,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304797,
+            "type": "set_quantity",
+            "order": 12,
+            "formula_constraint_id": 74564,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172850,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187407,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304797,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624520,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187407,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187394,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74564,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624507,
+            "type": "boolean",
+            "constant": "true",
+            "form_element_id": null,
+            "form_option_id": null,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187394,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187394,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74564,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624507,
+          "type": "boolean",
+          "constant": "true",
+          "form_element_id": null,
+          "form_option_id": null,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187394,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74565,
+      "meta": {
+        "id": 74565,
+        "active": 1,
+        "name": "Sizing · Firewall and Wi-Fi per location",
+        "description": null,
+        "order": 30,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:45.000000Z",
+        "updated_at": "2026-11-12T11:40:46.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74565,
+        "name": "Sizing · Firewall and Wi-Fi per location",
+        "description": null,
+        "active": 1,
+        "order": 30,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304798,
+            "type": "set_quantity",
+            "order": 0,
+            "formula_constraint_id": 74565,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172857,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187409,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304798,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624522,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62899,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187409,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304799,
+            "type": "set_quantity",
+            "order": 1,
+            "formula_constraint_id": 74565,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172858,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187410,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304799,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624523,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62899,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187410,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187408,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74565,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624521,
+            "type": "boolean",
+            "constant": "true",
+            "form_element_id": null,
+            "form_option_id": null,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187408,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187408,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74565,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624521,
+          "type": "boolean",
+          "constant": "true",
+          "form_element_id": null,
+          "form_option_id": null,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187408,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74566,
+      "meta": {
+        "id": 74566,
+        "active": 1,
+        "name": "Sizing · No servers → hide server management",
+        "description": null,
+        "order": 40,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:46.000000Z",
+        "updated_at": "2026-11-12T11:40:46.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74566,
+        "name": "Sizing · No servers → hide server management",
+        "description": null,
+        "active": 1,
+        "order": 40,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304800,
+            "type": "hide",
+            "order": 0,
+            "formula_constraint_id": 74566,
+            "form_group_id": null,
+            "form_element_id": 62909,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": null
+          }
+        ],
+        "formula_expression": {
+          "id": 1187411,
+          "form_id": 1545,
+          "operation": "eq",
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74566,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": null,
+          "children": [
+            {
+              "id": 1187412,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187411,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624524,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62900,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187412,
+                "product_queryable": null
+              },
+              "children": []
+            },
+            {
+              "id": 1187413,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187411,
+              "order": 1,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624525,
+                "type": "number",
+                "constant": "0",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187413,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          ]
+        }
+      },
+      "expressionTree": {
+        "id": 1187411,
+        "form_id": 1545,
+        "operation": "eq",
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74566,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": null,
+        "children": [
+          {
+            "id": 1187412,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187411,
+            "order": 0,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624524,
+              "type": "value",
+              "constant": null,
+              "form_element_id": 62900,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187412,
+              "product_queryable": null
+            },
+            "children": []
+          },
+          {
+            "id": 1187413,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187411,
+            "order": 1,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624525,
+              "type": "number",
+              "constant": "0",
+              "form_element_id": null,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187413,
+              "product_queryable": null
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 74567,
+      "meta": {
+        "id": 74567,
+        "active": 1,
+        "name": "Support · 24/7 coverage needs Business or Premium",
+        "description": null,
+        "order": 50,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:47.000000Z",
+        "updated_at": "2026-11-12T11:40:47.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74567,
+        "name": "Support · 24/7 coverage needs Business or Premium",
+        "description": null,
+        "active": 1,
+        "order": 50,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304801,
+            "type": "hide",
+            "order": 0,
+            "formula_constraint_id": 74567,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172838,
+            "product_queryable": null,
+            "formula_expression": null
+          },
+          {
+            "id": 304802,
+            "type": "message",
+            "order": 1,
+            "formula_constraint_id": 74567,
+            "form_group_id": null,
+            "form_element_id": 62904,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187415,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304802,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624527,
+                "type": "string",
+                "constant": "24/7 coverage is available on the Business and Premium plans.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187415,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187414,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74567,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624526,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172833,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187414,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187414,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74567,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624526,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172833,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187414,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74568,
+      "meta": {
+        "id": 74568,
+        "active": 1,
+        "name": "Support · Premium includes extended hours",
+        "description": null,
+        "order": 60,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:48.000000Z",
+        "updated_at": "2026-11-12T11:40:49.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74568,
+        "name": "Support · Premium includes extended hours",
+        "description": null,
+        "active": 1,
+        "order": 60,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304803,
+            "type": "set_price",
+            "order": 0,
+            "formula_constraint_id": 74568,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172837,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187417,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304803,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624529,
+                "type": "number",
+                "constant": "0",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187417,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304804,
+            "type": "success",
+            "order": 1,
+            "formula_constraint_id": 74568,
+            "form_group_id": null,
+            "form_element_id": 62904,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187418,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304804,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624530,
+                "type": "string",
+                "constant": "Extended hours are included in the Premium plan at no extra cost.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187418,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187416,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74568,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624528,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172835,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187416,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187416,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74568,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624528,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172835,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187416,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74569,
+      "meta": {
+        "id": 74569,
+        "active": 1,
+        "name": "Compliance · NIS2 requires EDR and 24/7 SOC",
+        "description": null,
+        "order": 70,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:49.000000Z",
+        "updated_at": "2026-11-12T11:40:52.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74569,
+        "name": "Compliance · NIS2 requires EDR and 24/7 SOC",
+        "description": null,
+        "active": 1,
+        "order": 70,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304805,
+            "type": "set",
+            "order": 0,
+            "formula_constraint_id": 74569,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172847,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187420,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304805,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624532,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187420,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304806,
+            "type": "set",
+            "order": 1,
+            "formula_constraint_id": 74569,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172852,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187421,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304806,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624533,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187421,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304807,
+            "type": "readonly",
+            "order": 2,
+            "formula_constraint_id": 74569,
+            "form_group_id": null,
+            "form_element_id": 62908,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": null
+          },
+          {
+            "id": 304808,
+            "type": "warning",
+            "order": 3,
+            "formula_constraint_id": 74569,
+            "form_group_id": null,
+            "form_element_id": 62902,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187422,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304808,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624534,
+                "type": "string",
+                "constant": "NIS2: EDR and 24/7 security monitoring have been added. You need both to detect incidents and report them within 24 hours.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187422,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187419,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74569,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624531,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172830,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187419,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187419,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74569,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624531,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172830,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187419,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74570,
+      "meta": {
+        "id": 74570,
+        "active": 1,
+        "name": "Compliance · ISO 27001 → awareness training",
+        "description": null,
+        "order": 80,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:52.000000Z",
+        "updated_at": "2026-11-12T11:40:53.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74570,
+        "name": "Compliance · ISO 27001 → awareness training",
+        "description": null,
+        "active": 1,
+        "order": 80,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304809,
+            "type": "set",
+            "order": 0,
+            "formula_constraint_id": 74570,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172849,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187424,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304809,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624536,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187424,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304810,
+            "type": "message",
+            "order": 1,
+            "formula_constraint_id": 74570,
+            "form_group_id": null,
+            "form_element_id": 62907,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187425,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304810,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624537,
+                "type": "string",
+                "constant": "ISO 27001 requires documented security awareness for all staff, so awareness training has been added.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187425,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187423,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74570,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624535,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172831,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187423,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187423,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74570,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624535,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172831,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187423,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74571,
+      "meta": {
+        "id": 74571,
+        "active": 1,
+        "name": "Compliance · PCI DSS → managed firewall",
+        "description": null,
+        "order": 90,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:53.000000Z",
+        "updated_at": "2026-11-12T11:40:54.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74571,
+        "name": "Compliance · PCI DSS → managed firewall",
+        "description": null,
+        "active": 1,
+        "order": 90,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304811,
+            "type": "set",
+            "order": 0,
+            "formula_constraint_id": 74571,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172857,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187427,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304811,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624539,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187427,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304812,
+            "type": "message",
+            "order": 1,
+            "formula_constraint_id": 74571,
+            "form_group_id": null,
+            "form_element_id": 62911,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187428,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304812,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624540,
+                "type": "string",
+                "constant": "PCI DSS requires a firewall that separates the card environment, so a managed firewall has been added at every location.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187428,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187426,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74571,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624538,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172832,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187426,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187426,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74571,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624538,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172832,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187426,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74572,
+      "meta": {
+        "id": 74572,
+        "active": 1,
+        "name": "Industry · Healthcare → backup and extended hours",
+        "description": null,
+        "order": 100,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:54.000000Z",
+        "updated_at": "2026-11-12T11:40:55.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74572,
+        "name": "Industry · Healthcare → backup and extended hours",
+        "description": null,
+        "active": 1,
+        "order": 100,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304813,
+            "type": "set",
+            "order": 0,
+            "formula_constraint_id": 74572,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172850,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187430,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304813,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624542,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187430,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304814,
+            "type": "warning",
+            "order": 1,
+            "formula_constraint_id": 74572,
+            "form_group_id": null,
+            "form_element_id": 62904,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187431,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304814,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624543,
+                "type": "string",
+                "constant": "Healthcare: we recommend extended hours or 24/7 coverage, as clinical systems are used outside office hours.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187431,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187429,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74572,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624541,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172827,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187429,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187429,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74572,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624541,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172827,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187429,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74573,
+      "meta": {
+        "id": 74573,
+        "active": 1,
+        "name": "Scale · 250+ users → enterprise review",
+        "description": null,
+        "order": 110,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:55.000000Z",
+        "updated_at": "2026-11-12T11:40:56.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74573,
+        "name": "Scale · 250+ users → enterprise review",
+        "description": null,
+        "active": 1,
+        "order": 110,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304815,
+            "type": "warning",
+            "order": 0,
+            "formula_constraint_id": 74573,
+            "form_group_id": null,
+            "form_element_id": 62898,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187435,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304815,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624546,
+                "type": "string",
+                "constant": "250 users or more: a solution architect will review the proposal and apply volume pricing.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187435,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187432,
+          "form_id": 1545,
+          "operation": "gte",
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74573,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": null,
+          "children": [
+            {
+              "id": 1187433,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187432,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624544,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187433,
+                "product_queryable": null
+              },
+              "children": []
+            },
+            {
+              "id": 1187434,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187432,
+              "order": 1,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624545,
+                "type": "number",
+                "constant": "250",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187434,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          ]
+        }
+      },
+      "expressionTree": {
+        "id": 1187432,
+        "form_id": 1545,
+        "operation": "gte",
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74573,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": null,
+        "children": [
+          {
+            "id": 1187433,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187432,
+            "order": 0,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624544,
+              "type": "value",
+              "constant": null,
+              "form_element_id": 62898,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187433,
+              "product_queryable": null
+            },
+            "children": []
+          },
+          {
+            "id": 1187434,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187432,
+            "order": 1,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624545,
+              "type": "number",
+              "constant": "250",
+              "form_element_id": null,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187434,
+              "product_queryable": null
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 74574,
+      "meta": {
+        "id": 74574,
+        "active": 1,
+        "name": "Scale · Under 10 users → Essential recommended",
+        "description": null,
+        "order": 120,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:56.000000Z",
+        "updated_at": "2026-11-12T11:40:57.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74574,
+        "name": "Scale · Under 10 users → Essential recommended",
+        "description": null,
+        "active": 1,
+        "order": 120,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304816,
+            "type": "message",
+            "order": 0,
+            "formula_constraint_id": 74574,
+            "form_group_id": null,
+            "form_element_id": 62903,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187439,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304816,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624549,
+                "type": "string",
+                "constant": "For teams under 10 users, the Essential plan usually covers the need.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187439,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187436,
+          "form_id": 1545,
+          "operation": "lt",
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74574,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": null,
+          "children": [
+            {
+              "id": 1187437,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187436,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624547,
+                "type": "value",
+                "constant": null,
+                "form_element_id": 62898,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187437,
+                "product_queryable": null
+              },
+              "children": []
+            },
+            {
+              "id": 1187438,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187436,
+              "order": 1,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624548,
+                "type": "number",
+                "constant": "10",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187438,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          ]
+        }
+      },
+      "expressionTree": {
+        "id": 1187436,
+        "form_id": 1545,
+        "operation": "lt",
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74574,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": null,
+        "children": [
+          {
+            "id": 1187437,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187436,
+            "order": 0,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624547,
+              "type": "value",
+              "constant": null,
+              "form_element_id": 62898,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187437,
+              "product_queryable": null
+            },
+            "children": []
+          },
+          {
+            "id": 1187438,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187436,
+            "order": 1,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624548,
+              "type": "number",
+              "constant": "10",
+              "form_element_id": null,
+              "form_option_id": null,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187438,
+              "product_queryable": null
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 74575,
+      "meta": {
+        "id": 74575,
+        "active": 1,
+        "name": "Onboarding · 450 kr per user + 2,500 kr per location + 1,500 kr per server",
+        "description": null,
+        "order": 130,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:57.000000Z",
+        "updated_at": "2026-11-12T11:40:59.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74575,
+        "name": "Onboarding · 450 kr per user + 2,500 kr per location + 1,500 kr per server",
+        "description": null,
+        "active": 1,
+        "order": 130,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304817,
+            "type": "set_price",
+            "order": 0,
+            "formula_constraint_id": 74575,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172862,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187442,
+              "form_id": 1545,
+              "operation": "add",
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304817,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": null,
+              "children": [
+                {
+                  "id": 1187443,
+                  "form_id": 1545,
+                  "operation": "mul",
+                  "parent_id": 1187442,
+                  "order": 0,
+                  "formula_constraint_id": null,
+                  "formula_saved_expression_id": null,
+                  "formula_effect_id": null,
+                  "product_free_variable_id": null,
+                  "used_formula_saved_expression_id": null,
+                  "formula_value": null,
+                  "children": [
+                    {
+                      "id": 1187444,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187443,
+                      "order": 0,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624551,
+                        "type": "value",
+                        "constant": null,
+                        "form_element_id": 62898,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187444,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": 1187445,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187443,
+                      "order": 1,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624552,
+                        "type": "number",
+                        "constant": "450",
+                        "form_element_id": null,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187445,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 1187446,
+                  "form_id": 1545,
+                  "operation": "mul",
+                  "parent_id": 1187442,
+                  "order": 1,
+                  "formula_constraint_id": null,
+                  "formula_saved_expression_id": null,
+                  "formula_effect_id": null,
+                  "product_free_variable_id": null,
+                  "used_formula_saved_expression_id": null,
+                  "formula_value": null,
+                  "children": [
+                    {
+                      "id": 1187447,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187446,
+                      "order": 0,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624553,
+                        "type": "value",
+                        "constant": null,
+                        "form_element_id": 62899,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187447,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": 1187448,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187446,
+                      "order": 1,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624554,
+                        "type": "number",
+                        "constant": "2500",
+                        "form_element_id": null,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187448,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 1187449,
+                  "form_id": 1545,
+                  "operation": "mul",
+                  "parent_id": 1187442,
+                  "order": 2,
+                  "formula_constraint_id": null,
+                  "formula_saved_expression_id": null,
+                  "formula_effect_id": null,
+                  "product_free_variable_id": null,
+                  "used_formula_saved_expression_id": null,
+                  "formula_value": null,
+                  "children": [
+                    {
+                      "id": 1187450,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187449,
+                      "order": 0,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624555,
+                        "type": "value",
+                        "constant": null,
+                        "form_element_id": 62900,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187450,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": 1187451,
+                      "form_id": 1545,
+                      "operation": null,
+                      "parent_id": 1187449,
+                      "order": 1,
+                      "formula_constraint_id": null,
+                      "formula_saved_expression_id": null,
+                      "formula_effect_id": null,
+                      "product_free_variable_id": null,
+                      "used_formula_saved_expression_id": null,
+                      "formula_value": {
+                        "id": 624556,
+                        "type": "number",
+                        "constant": "1500",
+                        "form_element_id": null,
+                        "form_option_id": null,
+                        "user_id": null,
+                        "country_id": null,
+                        "product_property_id": null,
+                        "formula_expression_id": 1187451,
+                        "product_queryable": null
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187440,
+          "form_id": 1545,
+          "operation": "not",
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74575,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": null,
+          "children": [
+            {
+              "id": 1187441,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": 1187440,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": null,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624550,
+                "type": "option_selected",
+                "constant": null,
+                "form_element_id": null,
+                "form_option_id": 172861,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187441,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          ]
+        }
+      },
+      "expressionTree": {
+        "id": 1187440,
+        "form_id": 1545,
+        "operation": "not",
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74575,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": null,
+        "children": [
+          {
+            "id": 1187441,
+            "form_id": 1545,
+            "operation": null,
+            "parent_id": 1187440,
+            "order": 0,
+            "formula_constraint_id": null,
+            "formula_saved_expression_id": null,
+            "formula_effect_id": null,
+            "product_free_variable_id": null,
+            "used_formula_saved_expression_id": null,
+            "formula_value": {
+              "id": 624550,
+              "type": "option_selected",
+              "constant": null,
+              "form_element_id": null,
+              "form_option_id": 172861,
+              "user_id": null,
+              "country_id": null,
+              "product_property_id": null,
+              "formula_expression_id": 1187441,
+              "product_queryable": null
+            },
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 74576,
+      "meta": {
+        "id": 74576,
+        "active": 1,
+        "name": "Onboarding · Included with a 36-month agreement",
+        "description": null,
+        "order": 140,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:40:59.000000Z",
+        "updated_at": "2026-11-12T11:41:00.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74576,
+        "name": "Onboarding · Included with a 36-month agreement",
+        "description": null,
+        "active": 1,
+        "order": 140,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304818,
+            "type": "set_price",
+            "order": 0,
+            "formula_constraint_id": 74576,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172862,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187453,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304818,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624558,
+                "type": "number",
+                "constant": "0",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187453,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304819,
+            "type": "success",
+            "order": 1,
+            "formula_constraint_id": 74576,
+            "form_group_id": null,
+            "form_element_id": 62912,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187454,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304819,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624559,
+                "type": "string",
+                "constant": "Onboarding and migration are included free of charge with a 36-month agreement.",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187454,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          }
+        ],
+        "formula_expression": {
+          "id": 1187452,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74576,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624557,
+            "type": "option_selected",
+            "constant": null,
+            "form_element_id": null,
+            "form_option_id": 172861,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187452,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187452,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74576,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624557,
+          "type": "option_selected",
+          "constant": null,
+          "form_element_id": null,
+          "form_option_id": 172861,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187452,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    },
+    {
+      "id": 74577,
+      "meta": {
+        "id": 74577,
+        "active": 1,
+        "name": "Onboarding · Always included",
+        "description": null,
+        "order": 150,
+        "form_id": 1545,
+        "created_at": "2026-11-12T11:41:00.000000Z",
+        "updated_at": "2026-11-12T11:41:01.000000Z",
+        "formula_constraint_categories": []
+      },
+      "constraint": {
+        "id": 74577,
+        "name": "Onboarding · Always included",
+        "description": null,
+        "active": 1,
+        "order": 150,
+        "form_id": 1545,
+        "completeness": {
+          "condition_complete": true,
+          "incomplete_effect_count": 0,
+          "is_incomplete": false
+        },
+        "formula_effects": [
+          {
+            "id": 304820,
+            "type": "set",
+            "order": 0,
+            "formula_constraint_id": 74577,
+            "form_group_id": null,
+            "form_element_id": null,
+            "form_option_id": 172862,
+            "product_queryable": null,
+            "formula_expression": {
+              "id": 1187456,
+              "form_id": 1545,
+              "operation": null,
+              "parent_id": null,
+              "order": 0,
+              "formula_constraint_id": null,
+              "formula_saved_expression_id": null,
+              "formula_effect_id": 304820,
+              "product_free_variable_id": null,
+              "used_formula_saved_expression_id": null,
+              "formula_value": {
+                "id": 624561,
+                "type": "boolean",
+                "constant": "true",
+                "form_element_id": null,
+                "form_option_id": null,
+                "user_id": null,
+                "country_id": null,
+                "product_property_id": null,
+                "formula_expression_id": 1187456,
+                "product_queryable": null
+              },
+              "children": []
+            }
+          },
+          {
+            "id": 304821,
+            "type": "readonly",
+            "order": 1,
+            "formula_constraint_id": 74577,
+            "form_group_id": null,
+            "form_element_id": 62913,
+            "form_option_id": null,
+            "product_queryable": null,
+            "formula_expression": null
+          }
+        ],
+        "formula_expression": {
+          "id": 1187455,
+          "form_id": 1545,
+          "operation": null,
+          "parent_id": null,
+          "order": 0,
+          "formula_constraint_id": 74577,
+          "formula_saved_expression_id": null,
+          "formula_effect_id": null,
+          "product_free_variable_id": null,
+          "used_formula_saved_expression_id": null,
+          "formula_value": {
+            "id": 624560,
+            "type": "boolean",
+            "constant": "true",
+            "form_element_id": null,
+            "form_option_id": null,
+            "user_id": null,
+            "country_id": null,
+            "product_property_id": null,
+            "formula_expression_id": 1187455,
+            "product_queryable": null
+          },
+          "children": []
+        }
+      },
+      "expressionTree": {
+        "id": 1187455,
+        "form_id": 1545,
+        "operation": null,
+        "parent_id": null,
+        "order": 0,
+        "formula_constraint_id": 74577,
+        "formula_saved_expression_id": null,
+        "formula_effect_id": null,
+        "product_free_variable_id": null,
+        "used_formula_saved_expression_id": null,
+        "formula_value": {
+          "id": 624560,
+          "type": "boolean",
+          "constant": "true",
+          "form_element_id": null,
+          "form_option_id": null,
+          "user_id": null,
+          "country_id": null,
+          "product_property_id": null,
+          "formula_expression_id": 1187455,
+          "product_queryable": null
+        },
+        "children": []
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,7 +1,7 @@
 {
   "name": "mercura-config-panel",
   "displayName": "Mercura config-panel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Work with your Mercura configurators from Claude: configure products, see live prices, create quotes, look up quotes and products, and (for admins) edit configurators safely.",
   "author": {
     "name": "Mercura",

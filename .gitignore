@@ -6,6 +6,7 @@ Thumbs.db
 server/vendor/
 
 # Workspace files of this local folder that are not part of the public repository.
+/IIE-BUG.md
 /.cursor/
 /.env*
 /notes.md

@@ -1,7 +1,7 @@
-Third-party software in vendor.min.mjs of the Mercura config-panel Claude plugin 0.1.0
+Third-party software in vendor.min.mjs of the Mercura config-panel Claude plugin 0.1.1
 
 ==============================================================================
-@mercura-aps/frontend-form-sdk 1.13.0-r.3 (Mercura ApS, proprietary: see LICENSE)
+@mercura-aps/frontend-form-sdk 1.13.0-r.8 (Mercura ApS, proprietary: see LICENSE)
 ==============================================================================
 
 

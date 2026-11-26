@@ -18,8 +18,8 @@ A Claude plugin Mercura's customers install to talk to their own config-panel Te
 
 | Step | State |
 |---|---|
-| Public repository [mercura-aps/Claude-plugin](https://github.com/mercura-aps/Claude-plugin), with source, tests and test data (agreed to publish all) | Pushed: version 0.1.0 |
-| Newest form SDK in the build (`server/scripts/fetch-sdk.mjs`, rebuild, commit) | To do by Mercura: needs registry access. The build contains 1.13.0-r.3 |
+| Public repository [mercura-aps/Claude-plugin](https://github.com/mercura-aps/Claude-plugin), with source, tests and test data (agreed to publish all) | Pushed: version 0.1.1 |
+| Newest form SDK in the build (`server/scripts/fetch-sdk.mjs`, rebuild, commit) | Done. The build contains `@mercura-aps/frontend-form-sdk` 1.13.0-r.8 and `@mercura-aps/frontend-schemas` 1.28.0. `npm test`: 22 checks passed |
 | Test with a sandbox config-panel (list below) | To do by Mercura |
 | Submission to the Claude plugin directory ([SUBMISSION.md](SUBMISSION.md)) | To do by Mercura's organization Owner, after the two steps above |
 

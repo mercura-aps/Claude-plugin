@@ -1,6 +1,6 @@
 {
   "name": "config-panel-claude-plugin-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "MCP server of the Mercura config-panel Claude plugin. Built into one file at plugins/mercura-config-panel/server/index.mjs.",
   "type": "module",

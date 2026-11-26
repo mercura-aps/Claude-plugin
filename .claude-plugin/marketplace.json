@@ -10,7 +10,7 @@
       "name": "mercura-config-panel",
       "source": "./plugins/mercura-config-panel",
       "description": "Configure products, see live prices and create quotes in your Mercura config-panel; look up quotes and products; admins can edit configurators with preview, confirmation and undo.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productivity",
       "tags": [
         "cpq",

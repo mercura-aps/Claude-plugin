@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Mercura config-panel Claude plugin 0.1.0 (2026-11-26). The plugin's own code; its source is server/src/ in this repository. Third-party code is in vendor.min.mjs.
+// Mercura config-panel Claude plugin 0.1.1 (2026-11-26). The plugin's own code; its source is server/src/ in this repository. Third-party code is in vendor.min.mjs.
 
 // src/index.ts
 import { McpServer } from "./vendor.min.mjs";
@@ -1982,7 +1982,7 @@ function summarizeRequest(d) {
 }
 
 // src/index.ts
-var VERSION = true ? "0.1.0" : "dev";
+var VERSION = true ? "0.1.1" : "dev";
 var INSTRUCTIONS = `Tools for one Mercura config-panel (CPQ) installation: configure products, price them, and create quotes, look up quotes and the catalogue, and (for admins, when edits are switched on) change configurators.
 - First, before anything else: call connection_status. It logs in with the user's saved login. If it fails, show its message and stop until the user has fixed the login in /plugin \u2192 Mercura config-panel \u2192 Configure.
 - Never ask for, accept or repeat a username or password in the conversation. If the user pastes a password, do not use it; tell them to enter it in the plugin's settings instead and to consider changing it.

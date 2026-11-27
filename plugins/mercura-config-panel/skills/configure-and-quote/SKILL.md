@@ -9,7 +9,7 @@ The plugin runs Mercura's own storefront engine, so the configurator's rules dec
 
 ## Steps
 
-1. `connection_status` logs in and shows the config-panel and the user's level. If it fails, show its message and stop: the user logs in through `/plugin` → Installed → Mercura config-panel → Configure, then `/reload-plugins`. Never ask for or accept a password in the chat.
+1. `connection_status` logs in and shows the config-panel and the user's level. If it returns `loginUrl`, give the user that link and ask them to log in on that page and tell you when they're done; then call `connection_status` again. If it fails, show its message and stop. Never ask for or accept a password in the chat.
 2. Find the configurator: `list_configurators`. If several fit, ask which one.
 3. `start_quote`. Pass `country` when the user names a market (prices and currency follow the country); `get_localizations` lists them.
 4. `add_configuration` with the form id. Read what comes back:

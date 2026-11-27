@@ -7,7 +7,7 @@ description: For config-panel admins, change an existing configurator in Mercura
 
 Edits change the live configurator for every shopper as soon as they are saved (the storefront may take up to 10 minutes to show them). The plugin protects against mistakes: preview → confirm → backup → save → check. Never skip the confirmation.
 
-If the edit tools (`preview_form_edit`, `apply_form_change`) are missing, edits are switched off: tell the user to turn on **Allow edits** in `/plugin` → Mercura config-panel → Configure, and that it needs an admin login.
+If the edit tools (`preview_form_edit`, `apply_form_change`) are missing, edits are switched off: call `connection_status` with `newLogin: true`, give the user the login link, and ask them to log in again with **Allow Claude to edit configurators** ticked. It needs an admin login.
 
 ## Steps
 
@@ -15,7 +15,8 @@ If the edit tools (`preview_form_edit`, `apply_form_change`) are missing, edits 
 2. `list_rules` when the change touches visibility, required state or prices: a rule may show, hide, require or price the same node and undo the edit at runtime. Mention any such rule to the user.
 3. `preview_form_edit` with all related edits in one call and a `reason` in the user's words. Nothing is saved.
 4. Show the user the `changes` list and every `warning` as returned, then ask: "Shall I save this?"
-5. Only after an explicit yes: `apply_form_change` with the `confirmationToken`. A token works once and expires after 30 minutes.
+5. Offer to try it first: `trial_change` with the same `confirmationToken` and a few typical answers runs the storefront's own form engine on this computer, on the live and on the changed configurator, and lists what differs. It saves nothing and keeps the token valid.
+6. Only after an explicit yes: `apply_form_change` with the `confirmationToken`. A token works once and expires after 30 minutes.
 6. Report the result:
    - `verified: true`: every edited field reads back as intended.
    - `mismatches`: name them; config-panel did not keep those values.

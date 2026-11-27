@@ -14,3 +14,7 @@ server/vendor/
 /forms/
 /scripts/
 /docs/.gitkeep
+
+# Built archives (.plugin/.zip) for hand-delivery to customers: never committed, and never inside the plugin folder.
+/release/
+*.plugin

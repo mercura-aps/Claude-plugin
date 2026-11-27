@@ -1,8 +1,8 @@
 {
   "name": "mercura-config-panel",
   "displayName": "Mercura config-panel",
-  "version": "0.1.1",
-  "description": "Work with your Mercura configurators from Claude: configure products, see live prices, create quotes, look up quotes and products, and (for admins) edit configurators safely.",
+  "version": "1.4.5",
+  "description": "Work with your Mercura configurators from Claude: configure products, see live prices, create quotes, look up quotes and products, build a customer dashboard, and (for admins) build configurators, rules, bills of materials, quote documents, catalogue, pricing, categories, media, users and appearance safely, with a trial mode that runs changes in the storefront's own form engine before they are saved.",
   "author": {
     "name": "Mercura",
     "url": "https://mercura.io"
@@ -25,40 +25,8 @@
         "${CLAUDE_PLUGIN_ROOT}/server/index.mjs"
       ],
       "env": {
-        "CONFIG_PANEL_HOST": "${user_config.host}",
-        "CONFIG_PANEL_USERNAME": "${user_config.username}",
-        "CONFIG_PANEL_PASSWORD": "${user_config.password}",
-        "CONFIG_PANEL_ALLOW_EDITS": "${user_config.allow_edits}",
         "CONFIG_PANEL_DATA_DIR": "${CLAUDE_PLUGIN_DATA}"
       }
-    }
-  },
-  "userConfig": {
-    "host": {
-      "type": "string",
-      "title": "config-panel address",
-      "description": "The address you log in to config-panel at, e.g. acme.config.mercura.io",
-      "required": true
-    },
-    "username": {
-      "type": "string",
-      "title": "Username or e-mail",
-      "description": "Your config-panel login.",
-      "required": true
-    },
-    "password": {
-      "type": "string",
-      "title": "Password",
-      "description": "Your config-panel password. Kept in your computer's secure storage (Keychain / Credential Manager), never in a settings file and never shown to Claude.",
-      "sensitive": true,
-      "required": true
-    },
-    "allow_edits": {
-      "type": "boolean",
-      "title": "Allow edits to configurators",
-      "description": "Admins only. When on, Claude can propose changes to configurators and save them after you confirm each one.",
-      "default": false,
-      "required": false
     }
   },
   "repository": "https://github.com/mercura-aps/Claude-plugin"
